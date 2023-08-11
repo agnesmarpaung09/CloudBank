@@ -10,7 +10,7 @@ const SoftwareCompany = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/BgSoftwareCompany.png')`,
+            backgroundImage: `url('/images/BgSoftwareCompany.png')`,
             height: "103%",
           }}
         ></div>
