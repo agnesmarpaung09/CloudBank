@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image';
+import Testimonial from "../testimonial";
 
 
 const SoftwareCompany = () => {
   return (
     <div  className="bg-white">
-        
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-32 pb-16 lg:pb-20">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -62,9 +63,49 @@ const SoftwareCompany = () => {
         </div>
         </div>
       </div>
+      <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-28 lg:mt-36">
+      <div className="grid justify-center">
+        <Image 
+          src="/images/SoftwareCompany1.PNG"
+          alt="Another Image"
+          width={550} 
+          height={550}
+          className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-96"
+        />
+      </div>
 
+      <div className="lg:pr-12 xl:pr-28 2xl:pr-40 text-left ">
+        <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-5xl font-bold mb-4">
+          Cloudbank Menyediakan <br />
+          Layanan Hosting Yang Reliable <br className="mt-4" />
+          Untuk Company Anda<br className="mt-4" />
+        </h1>
+        <p className="text-md tracking-wider text-justify">
+          Kami telah dipercaya oleh banyak perusahaan untuk menyediakan layanan 
+          hosting yang berkualitas
+        </p>
+        </div>
+      </div>
 
-
+      <div className="flex items-center flex-col mt-20 bg-contain bg-no-repeat font-cabinet-grotesk relative">
+        <div className="relative w-full h-48">
+          <Image 
+            src="/images/banner.PNG"
+            alt="Another Image"
+            layout="fill"
+            objectPosition="center"
+            className="w-full h-full"
+          />
+          <div className="absolute top-10 w-full h-full text-center text-white">
+            <h1 className=" font-bold text-white sm:text-lg lg:text-xl w-full mb-2">Beragam Paket Hosting</h1>
+            <p className="text-xs sm:text-base lg:text-lg">
+              kami meyediakan berbagai paket cloud hosting yang sesuai dengan keperluan anda.
+            </p>
+            <button className="text-xs text-white bg-[#FA753E] px-4 py-2 rounded-xl mt-2">Cek Paket Cloud Hosting</button>
+          </div> 
+        </div>
+      </div>  
+      <Testimonial />
     </div>
   );
 };  
