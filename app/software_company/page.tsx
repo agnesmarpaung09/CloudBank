@@ -75,11 +75,9 @@ const SoftwareCompany = () => {
         />
       </div>
 
-      <div className="lg:pr-12 xl:pr-28 2xl:pr-40 text-left ">
-        <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-5xl font-bold mb-4">
-          Cloudbank Menyediakan <br />
-          Layanan Hosting Yang Reliable <br className="mt-4" />
-          Untuk Company Anda<br className="mt-4" />
+      <div className="lg:pr-12 xl:pr-28 2xl:pr-40 text-left">
+        <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-5xl font-bold mb-4 lg:w-[500px]">
+          Cloudbank Menyediakan Layanan Hosting Yang Reliable Untuk Company Anda
         </h1>
         <p className="text-md tracking-wider text-justify">
           Kami telah dipercaya oleh banyak perusahaan untuk menyediakan layanan hosting yang berkualitas
