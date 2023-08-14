@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from 'next/image';
 import Testimonial from "../testimonial";
 
@@ -32,28 +31,29 @@ const SoftwareCompany = () => {
           </div>
         </div>
       </div>
-
       <div className="flex max-w-base mx-auto justify-center bg-[#F1F1F1] text-[#606060]">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-4">
-        <div className="w-80 pr-6">
-          <h1 className="font-semibold text-sm text-center mt-16 font-serif">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
+        <div className="w-80">
+          <div className="border-r-4 h-20 mt-16 "></div>
+          <h1 className="font-semibold text-sm text-center -mt-24 font-serif mr-6">
             Performa Yang Terbaik
           </h1>
-          <h2 className="mt-2 text-xs text-justify">
+          <h2 className="mt-2 text-xs text-justify mr-10">
             Performa Maksimal Untuk Pendidikan Yang Lebih Baik Lagi. Cloudbank Memberikan 
             Performa Yang Maksimal Agar Pembelajaran Dapat Dimudahkan.
           </h2>
         </div>
-        <div className="w-80 pr-6">
-          <h1 className="font-semibold text-sm text-center mt-16 font-serif">
+        <div className="w-72">
+        <div className="border-r-4 h-20 mt-16"></div>
+          <h1 className="font-semibold text-sm text-center -mt-24 font-serif">
             Keamanan Backup
           </h1>
-          <h2 className="mt-2 text-xs text-center">
+          <h2 className="mt-2 text-xs text-center mr-4">
             Database Anda Akan Di Backup Otomatis Dalam Harian, Mingguan Dan Bulanan.
           </h2>
         </div>
-        <div className="w-80">
-          <h1 className="font-semibold text-sm text-center mt-16 font-serif">
+        <div className="w-72">
+          <h1 className="font-semibold text-sm text-center mt-12 font-serif">
             Dedicated Support
           </h1>
           <h2 className="mt-2 text-xs text-justify mb-8">
@@ -63,6 +63,7 @@ const SoftwareCompany = () => {
         </div>
         </div>
       </div>
+
       <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
