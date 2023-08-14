@@ -63,14 +63,14 @@ const SoftwareCompany = () => {
         </div>
         </div>
       </div>
-      <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-28 lg:mt-36">
+      <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
           src="/images/SoftwareCompany1.PNG"
           alt="Another Image"
           width={550} 
           height={550}
-          className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-96"
+          className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
 
@@ -81,13 +81,12 @@ const SoftwareCompany = () => {
           Untuk Company Anda<br className="mt-4" />
         </h1>
         <p className="text-md tracking-wider text-justify">
-          Kami telah dipercaya oleh banyak perusahaan untuk menyediakan layanan 
-          hosting yang berkualitas
+          Kami telah dipercaya oleh banyak perusahaan untuk menyediakan layanan hosting yang berkualitas
         </p>
         </div>
       </div>
 
-      <div className="flex items-center flex-col mt-20 bg-contain bg-no-repeat font-cabinet-grotesk relative">
+      <div className="flex items-center flex-col mt-24 bg-contain bg-no-repeat font-cabinet-grotesk relative">
         <div className="relative w-full h-48">
           <Image 
             src="/images/banner.PNG"
@@ -96,10 +95,10 @@ const SoftwareCompany = () => {
             objectPosition="center"
             className="w-full h-full"
           />
-          <div className="absolute top-10 w-full h-full text-center text-white">
+          <div className="absolute top-10 w-full h-full text-center text-white  ">
             <h1 className=" font-bold text-white sm:text-lg lg:text-xl w-full mb-2">Beragam Paket Hosting</h1>
             <p className="text-xs sm:text-base lg:text-lg">
-              kami meyediakan berbagai paket cloud hosting yang sesuai dengan keperluan anda.
+              kami menyediakan berbagai paket cloud hosting yang sesuai dengan keperluan anda.
             </p>
             <button className="text-xs text-white bg-[#FA753E] px-4 py-2 rounded-xl mt-2">Cek Paket Cloud Hosting</button>
           </div> 
