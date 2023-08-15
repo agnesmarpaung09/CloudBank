@@ -31,6 +31,7 @@ const SoftwareCompany = () => {
           </div>
         </div>
       </div>
+      
       <div className="flex max-w-base mx-auto justify-center bg-[#F1F1F1] text-[#606060]">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
