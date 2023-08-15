@@ -24,7 +24,7 @@ const SoftwareCompany = () => {
             <h2 className="mt-4 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[500px] lg:w-[700px]">
               Solusi Aman Dan Terjamin Untuk Company Anda
             </h2>
-            <p className="mt-4 text-md lg:text-xl text-white w-full md:w-[500px] lg:w-[600px] text-justify">
+            <p className="mt-8 text-md lg:text-lg text-white w-full md:w-[500px] lg:w-[600px] text-justify">
               Cloudbank Hadir Untuk Membantu Perusahaan Anda Menjadi Yang Terdepan Melalui 
               Layanan Hosting Cloudbank Yang Secure Dan Cepat Untuk Keperluan Company.
             </p>
