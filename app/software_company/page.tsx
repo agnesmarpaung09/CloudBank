@@ -67,7 +67,7 @@ const SoftwareCompany = () => {
       <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
-          src="/images/SoftwareCompany1.PNG"
+          src="/images/SoftwareCompany.PNG"
           alt="Another Image"
           width={550} 
           height={550}
