@@ -3,14 +3,14 @@ import Image from 'next/image';
 import Testimonial from "../testimonial";
 
 
-const SoftwareCompany = () => {
+const OrganisasiNonProfit = () => {
   return (
     <div  className="bg-white">
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-32 pb-16 lg:pb-20">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/images/BgSoftwareCompany.png')`,
+            backgroundImage: `url('/images/BgOrganisasiNonProfit.png')`,
             height: "103%",
           }}
         ></div>
@@ -18,20 +18,19 @@ const SoftwareCompany = () => {
           <div
             id="home"
             className="text-left mx-6 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-24">
-            <h1 className=" font-semibold text-white text-lg sm:text-xl lg:text-2xl mb-4 ">
-              Software Company
+            <h1 className=" font-semibold text-white text-sm sm:text-lg lg:text-lg mb-2 ">
+              Organisasi Non Profit
             </h1>
-            <h2 className="mt-4 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[500px] lg:w-[700px]">
-              Solusi Aman Dan Terjamin Untuk Company Anda
+            <h2 className="mt-2 text-white font-bold text-3xl sm:text-4xl lg:text-4xl mb-4 w-full md:w-[400px] lg:w-[600px]">
+              Cloudbank Memahami Pentingnya Misi Anda
             </h2>
-            <p className="mt-8 text-md lg:text-lg text-white w-full md:w-[500px] lg:w-[600px] text-justify">
-              Cloudbank Hadir Untuk Membantu Perusahaan Anda Menjadi Yang Terdepan Melalui 
-              Layanan Hosting Cloudbank Yang Secure Dan Cepat Untuk Keperluan Company.
+            <p className="mt-4 text-md lg:text-xl text-white w-full md:w-[400px] lg:w-[600px] text-justify">
+              Cloudbank Menawarkan Layanan Hosting Yang Memadai, kami Selalu Memberikan Performa Yang Tinggi,
+              Keamanan Yang Terjamin dan Integrasi Mudah Dengan Sistem Manajemen Pembelajaran.
             </p>
           </div>
         </div>
       </div>
-      
       <div className="flex max-w-base mx-auto justify-center bg-[#F1F1F1] text-[#606060]">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
@@ -58,8 +57,8 @@ const SoftwareCompany = () => {
             Dedicated Support
           </h1>
           <h2 className="mt-2 text-xs text-justify mb-8">
-            Kami Memberikan Layanan Support Kepada Pelanggan Dengan Responsif 24/7. 
-            Hubungi Kami Kapan Saja, Maka Tim Support Kami Akan Melayani Dan Menyelesaikan Masalah Anda.
+           layanan Hosting Kami Memberikan Platform Yang Handal Bagi Organisasi Non Profit 
+           Untuk Membagikan Pesan Mereka Dan Mengumpulkan Donasi Dengan Aman
           </h2>
         </div>
         </div>
@@ -68,7 +67,7 @@ const SoftwareCompany = () => {
       <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
-          src="/images/SoftwareCompany.PNG"
+          src="/images/OrganisasiNonProfit.PNG"
           alt="Another Image"
           width={550} 
           height={550}
@@ -78,10 +77,11 @@ const SoftwareCompany = () => {
 
       <div className="lg:pr-12 xl:pr-28 2xl:pr-40 text-left">
         <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-5xl font-bold mb-4 lg:w-[500px]">
-          Cloudbank Menyediakan Layanan Hosting Yang Reliable Untuk Company Anda
+          Cloudbank Memberikan Layanan Terbaik Untuk Keperluan Organisasi Mu
         </h1>
         <p className="text-md tracking-wider text-justify">
-          Kami telah dipercaya oleh banyak perusahaan untuk menyediakan layanan hosting yang berkualitas
+          Manfaatkan Layanan Hosting Kami Yang Terjangkau Dan Dukungan Yang Berdedikasi Untuk 
+          Menciptakan Dampak Yang Baik Secara Online.
         </p>
         </div>
       </div>
@@ -98,7 +98,7 @@ const SoftwareCompany = () => {
           <div className="absolute top-10 w-full h-full text-center text-white  ">
             <h1 className=" font-bold text-white sm:text-lg lg:text-xl w-full mb-2">Beragam Paket Hosting</h1>
             <p className="text-xs sm:text-base lg:text-lg">
-              kami menyediakan berbagai paket cloud hosting yang sesuai dengan keperluan anda.
+             Kami Menyediakan Berbagai Paket Cloud Hosting Yang Sesuai Dengan Keperluan Anda.
             </p>
             <button className="text-xs text-white bg-[#FA753E] px-4 py-2 rounded-xl mt-2">Cek Paket Cloud Hosting</button>
           </div> 
@@ -108,4 +108,4 @@ const SoftwareCompany = () => {
     </div>
   );
 };  
-export default SoftwareCompany;
+export default OrganisasiNonProfit;
