@@ -24,13 +24,14 @@ const SoftwareCompany = () => {
             <h2 className="mt-4 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[500px] lg:w-[700px]">
               Solusi Aman Dan Terjamin Untuk Company Anda
             </h2>
-            <p className="mt-4 text-md lg:text-xl text-white w-full md:w-[500px] lg:w-[600px] text-justify">
+            <p className="mt-8 text-md lg:text-lg text-white w-full md:w-[500px] lg:w-[600px] text-justify">
               Cloudbank Hadir Untuk Membantu Perusahaan Anda Menjadi Yang Terdepan Melalui 
               Layanan Hosting Cloudbank Yang Secure Dan Cepat Untuk Keperluan Company.
             </p>
           </div>
         </div>
       </div>
+      
       <div className="flex max-w-base mx-auto justify-center bg-[#F1F1F1] text-[#606060]">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
@@ -67,7 +68,7 @@ const SoftwareCompany = () => {
       <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
-          src="/images/SoftwareCompany1.PNG"
+          src="/images/SoftwareCompany.PNG"
           alt="Another Image"
           width={550} 
           height={550}
