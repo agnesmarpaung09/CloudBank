@@ -223,10 +223,10 @@ const reseller = () => {
           </h2>
         </div>
 
-        <div className="mx-auto flex flex-col md:flex-row">
-          <div className="flex ">
-            <div className=" w-3/5 text-[#343A3E]  pt-16 leading-relaxed pl-32">
-              <div className="mt-4 w-[1060px]  pl-96">
+        <div className="mx-auto flex  md:flex-row">
+          <div className="xl:flex">
+            <div className=" xl:w-3/5 text-[#343A3E]  pt-16 leading-relaxed px-8 xl:pl-32 ">
+              <div className="mt-4 xl:w-[1060px]  xl:pl-96">
                 <img src="/HargaTermurah.svg" alt="HargaTermurah" />
                 <h2 className="text-md  font-semibold">Harga Termurah</h2>
                 <p className=" text-xs capitalize">
@@ -236,7 +236,7 @@ const reseller = () => {
                   perpanjangannya
                 </p>
               </div>
-              <div className="mt-4  w-[1000px] pl-[300px]">
+              <div className="mt-4  xl:w-[1000px] xl:pl-[300px]">
                 <img src="/MarkUPHarga.svg" alt="MarkUPHarga" />
                 <h2 className="text-md  font-semibold">Mark Up Harga</h2>
                 <p className=" text-xs  capitalize">
@@ -245,7 +245,7 @@ const reseller = () => {
                   anda dapat mengambil keuntungan tanpa batas sesuai kebutuhan
                 </p>
               </div>
-              <div className="mt-4  w-[940px] pl-52">
+              <div className="mt-4  xl:w-[940px] xl:pl-52">
                 <img src="/WhiteLabel.svg" alt="WhiteLabel" />
                 <h2 className="text-md  font-semibold">White Label</h2>
                 <p className="text-xs    capitalize">
@@ -255,7 +255,7 @@ const reseller = () => {
                   hosting sendiri
                 </p>
               </div>
-              <div className="mt-4  w-[850px] pl-32">
+              <div className="mt-4  xl:w-[850px] xl:pl-32">
                 <img src="/TanpaDeposit.svg" alt="TanpaDeposit" />
                 <h2 className="text-md  font-semibold">
                   Tanpa Deposit & Biaya Bulanan
@@ -267,7 +267,7 @@ const reseller = () => {
                   order hosting sesuai dengan penggunaan client
                 </p>
               </div>
-              <div className="mt-4  w-[750px] pl-10">
+              <div className="mt-4  xl:w-[750px] xl:pl-10">
                 <img src="/DukunganLayanan.svg" alt="DukunganLayanan" />
                 <h2 className="text-md  font-semibold">
                   Dukungan Layanan Khusus
@@ -279,60 +279,62 @@ const reseller = () => {
                 </p>
               </div>
             </div>
-            <div className="w-2/5 pt-6">
+            <div className="xl:w-2/5 pt-6 ">
               <img src="/images/resseller1.png" alt="resseller" />
             </div>
           </div>
         </div>
 
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center mt-20 px-8">
           <div className="w-full max-w-[1060px] overflow-x-auto ">
             <div className="md:flex flex-col">
-              <h2 className="text-2xl font-semibold mb-4">Cloud Hosting</h2>
+              <h2 className="text-2xl font-semibold mb-2 xl:mb-4">
+                Cloud Hosting
+              </h2>
               <table className="w-full md:w-auto table-auto border md:border-collapse rounded-xl overflow-hidden">
                 <thead>
                   <tr>
                     <th
-                      className="pl-4 bg-[#1171F5] text-left text-[#FFFFFF] w-48"
+                      className="pl-2 xl:pl-4 bg-[#1171F5] text-sm xl:text-md text-left text-[#FFFFFF] w-24 xl:w-48"
                       rowSpan={2}
                     >
                       Nama Paket
                     </th>
                     <th
-                      className="pl-4 bg-[#1171F5] text-left border-b border text-[#FFFFFF] w-80"
+                      className="pl-2 xl:pl-4 bg-[#1171F5] text-sm xl:text-md text-left border-b border text-[#FFFFFF] w-24 xl:w-80"
                       rowSpan={2}
                     >
                       Harga Normal / Bulan
                     </th>
                     <th
-                      className="py-3 bg-[#1171F5] border-b border text-[#FFFFFF] "
+                      className="py-2 xl:py-3 bg-[#1171F5] text-sm xl:text-md border-b border text-[#FFFFFF] "
                       colSpan={3}
                     >
                       Harga Reseller / Bulan
                     </th>
                   </tr>
-                  <tr className="bg-[#1171F5] text-[#FFFFFF]">
-                    <td className="border py-3 text-center">Basic</td>
-                    <td className="border text-center">Intermidiate</td>
-                    <td className="border text-center">Pro</td>
+                  <tr className="bg-[#1171F5] text-[#FFFFFF] text-sm xl:text-md text-center">
+                    <td className="border py-2 xl:py-3 ">Basic</td>
+                    <td className="border ">Intermidiate</td>
+                    <td className="border">Pro</td>
                   </tr>
                 </thead>
                 <tbody>
                   {dataCloudHosting.map((row, index) => (
                     <tr>
-                      <td className="border pl-4 py-3 text-left font-semibold text-[#343A3E]">
+                      <td className="border pl-2 xl:pl-4  py-2 xl:py-3 text-left text-sm xl:text-md font-semibold text-[#343A3E]">
                         {row.namaPaket}
                       </td>
-                      <td className="border pl-4 text-left text-[#909090]">
+                      <td className="border pl-2 xl:pl-4 text-left text-xs xl:text-md  text-[#909090]">
                         {row.HargaNormalBulan}
                       </td>
-                      <td className="border pl-4 text-left  text-[#909090]">
+                      <td className="border  pl-2 xl:pl-4  text-left text-xs xl:text-md  text-[#909090]">
                         {row.basic}
                       </td>
-                      <td className="border pl-4 text-left text-[#909090]">
+                      <td className="border pl-2 xl:pl-4  text-left text-xs xl:text-md  text-[#909090]">
                         {row.intermidiate}
                       </td>
-                      <td className="border pl-4 text-left  text-[#909090]">
+                      <td className="border  pl-2 xl:pl-4 text-left text-xs xl:text-md   text-[#909090]">
                         {row.pro}
                       </td>
                     </tr>

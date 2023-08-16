@@ -158,8 +158,45 @@ const affiliate = () => {
           </h2>
         </div>
 
-        <img src="/EllipseOrange.svg" alt="HargaTermurah" />
-        <img src="/EllipseBiru.svg" alt="HargaTermurah" />
+        <div className="relative">
+          <div className="flex justify-center items-center pt-32">
+            {Keuntungan.map((row, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 mx-4 transform transition-transform hover:scale-105 relative z-10"
+              >
+                <div className="bg-white rounded-2xl shadow-2xl p-6 w-72 relative">
+                  <div className="">
+                    <img
+                      src={row.image}
+                      alt={`images ${index + 1}`}
+                      className=""
+                    />
+                  </div>
+
+                  <h2 className="font-semibold text-xl text-[#343A3E] pt-3">
+                    {row.name}
+                  </h2>
+                  <p className="capitalize text-[#606060] text-sm">
+                    {row.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <img
+            src="/EllipseOrange.svg"
+            alt="EllipseOrange"
+            className="w-72 absolute top-0 z-0"
+          />
+
+          <img
+            src="/EllipseBiru.svg"
+            alt="EllipseBiru"
+            className="w-60 absolute bottom-0 justify-end "
+          />
+        </div>
       </div>
     </>
   );
