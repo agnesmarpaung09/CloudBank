@@ -124,22 +124,18 @@ const affiliate = () => {
             afiliasi cloudbank
           </h2>
         </div>
-        <div className="flex justify-center items-center mt-32">
-          <div className="mr-36">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-32">
+          <div className="xl:mr-36">
             <img src="images/affiliate2.png" alt="Gambar Pertama" />
             <p className="mt-4 font-semibold text-center text-[#606060]">
               Cloud Hosting
             </p>
-
-            <hr className="my-2 border-t border-[#606060]" />
           </div>
-          <div className="mr-36">
+          <div className="xl:mr-36">
             <img src="images/affiliate3.png" alt="Gambar Kedua" />
             <p className="mt-4 font-semibold text-center text-[#606060]">
               Cloud VPS
             </p>
-
-            <hr className="my-2 border-t border-[#606060]" />
           </div>
           <div>
             <img src="images/affiliate4.png" alt="Gambar Ketiga" />
@@ -159,11 +155,11 @@ const affiliate = () => {
         </div>
 
         <div className="relative">
-          <div className="flex justify-center items-center pt-32">
+          <div className="flex flex-col md:flex-row justify-center items-center pt-32">
             {Keuntungan.map((row, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 mx-4 transform transition-transform hover:scale-105 relative z-10"
+                className="flex-shrink-0 px-4 pb-10 transform transition-transform hover:scale-105 relative z-10"
               >
                 <div className="bg-white rounded-2xl shadow-2xl p-6 w-72 relative">
                   <div className="">
@@ -173,7 +169,6 @@ const affiliate = () => {
                       className=""
                     />
                   </div>
-
                   <h2 className="font-semibold text-xl text-[#343A3E] pt-3">
                     {row.name}
                   </h2>
@@ -184,18 +179,38 @@ const affiliate = () => {
               </div>
             ))}
           </div>
-
-          <img
+          {/* <img
             src="/EllipseOrange.svg"
             alt="EllipseOrange"
             className="w-72 absolute top-0 z-0"
           />
-
           <img
             src="/EllipseBiru.svg"
             alt="EllipseBiru"
             className="w-60 absolute bottom-0 justify-end "
           />
+        </div> */}
+
+          <div className="relative">
+            <img
+              src="/images/produk_domain/Group 291.png"
+              alt="png Group 291"
+              className="mx-auto py-24 w-[1060px]"
+            />
+            <div className="absolute top-1/2 transform -translate-y-1/2 text-left text-white pl-[360px] pt-4">
+              <p className="font-semibold text-2xl ">
+                Anda Mempunyai Pertanyaan?
+              </p>
+              <p className="capitalize text-lg pt-2">
+                Silahkan Hubungi langsung help center kami.
+              </p>
+            </div>
+            <div className="absolute bottom-[42%] right-4  text-right text-white ">
+              <div className="font-bold text-xl pt-[120px] pr-96">
+                <p>Hubungi Kami</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
