@@ -67,13 +67,13 @@ const Testimonial = () => {
                 />
               </div>
               <div className="xl:w-2/3 p-4 xl:p-0 mx-2 xl:mx-6 2xl:p-4">
-                <h2 className="text-lg sm:text-md font-semibold mt-2 font-poppins">
+                <h2 className="text-lg sm:text-md font-semibold mt-2">
                   {row.name}
                 </h2>
-                <p className="text-sm sm:text-xs mt-2 font-poppins">
+                <p className="text-sm sm:text-xs mt-2 ">
                   {row.busines}
                 </p>
-                <p className="text-md sm:text-sm mt-2 text-justify font-poppins">
+                <p className="text-md sm:text-sm mt-2 text-justify">
                   {row.description}
                 </p>
               </div>
