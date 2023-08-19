@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import RekanKami from "./RekanKami";
 
-const Landing = () => {
+function page() {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -749,6 +749,6 @@ const Landing = () => {
       </div>
     </>
   );
-};
+}
 
-export default Landing;
+export default page;

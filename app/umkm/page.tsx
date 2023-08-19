@@ -10,7 +10,7 @@ const SoftwareCompany = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/images/BgSoftwareCompany.png')`,
+            backgroundImage: `url('/images/BgUMKM.png')`,
             height: "103%",
           }}
         ></div>
@@ -19,14 +19,15 @@ const SoftwareCompany = () => {
             id="home"
             className="text-left mx-6 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-24">
             <h1 className=" font-semibold text-white text-lg sm:text-xl lg:text-2xl mb-4 ">
-              Software Company
+              UMKM
             </h1>
             <h2 className="mt-4 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[500px] lg:w-[700px]">
-              Solusi Aman Dan Terjamin Untuk Company Anda
+               <a>Cloudban Disini</a>
+               <p>Untuk Mendukung Bisnis-Mu</p>
             </h2>
-            <p className="mt-8 text-md lg:text-lg text-white w-full md:w-[500px] lg:w-[600px] text-justify">
-              Cloudbank Hadir Untuk Membantu Perusahaan Anda Menjadi Yang Terdepan Melalui 
-              Layanan Hosting Cloudbank Yang Secure Dan Cepat Untuk Keperluan Company.
+            <p className="mt-8 text-md lg:text-lg text-white w-[300px] sm:w-[400px] md:w-[500px] lg:w-[700px] text-justify">
+              UMKM Dapat Mengelola Dan Mengupdate Situs Web Mereka Dengan Mudah. Mereka Dapat Membagikan Informasi Tentang Produk 
+              Dan Layanan Mereka, Menampilkan Portfolio, Membagikan Konten Yang Menarik Dan Berinteraksi Dengan Pelanggan
             </p>
           </div>
         </div>
@@ -68,7 +69,7 @@ const SoftwareCompany = () => {
       <div className="grid sm:grid-cols-2 gap-8 px-8 items-center mt-24 lg:mt-28">
       <div className="grid justify-center">
         <Image 
-          src="/images/SoftwareCompany.PNG"
+          src="/images/UMKM.PNG"
           alt="Another Image"
           width={550} 
           height={550}
