@@ -21,10 +21,10 @@ const OrganisasiNonProfit = () => {
             <h1 className=" font-semibold text-white text-sm sm:text-lg lg:text-lg mb-2 ">
               Organisasi Non Profit
             </h1>
-            <h2 className="mt-2 text-white font-bold text-3xl sm:text-4xl lg:text-4xl mb-4 w-full md:w-[400px] lg:w-[600px]">
+            <h2 className="mt-2 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[400px] lg:w-[600px]">
               Cloudbank Memahami Pentingnya Misi Anda
             </h2>
-            <p className="mt-4 text-md lg:text-xl text-white w-full md:w-[400px] lg:w-[600px] text-justify">
+            <p className="mt-8 text-md lg:text-lg text-white w-full md:w-[400px] lg:w-[600px] text-justify">
               Cloudbank Menawarkan Layanan Hosting Yang Memadai, kami Selalu Memberikan Performa Yang Tinggi,
               Keamanan Yang Terjamin dan Integrasi Mudah Dengan Sistem Manajemen Pembelajaran.
             </p>
@@ -69,8 +69,8 @@ const OrganisasiNonProfit = () => {
         <Image 
           src="/images/OrganisasiNonProfit.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
