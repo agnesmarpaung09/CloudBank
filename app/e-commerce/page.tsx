@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Testimonial from "../testimonial";
 
 
+
 const Ecommerce = () => {
   return (
     <div  className="bg-white">

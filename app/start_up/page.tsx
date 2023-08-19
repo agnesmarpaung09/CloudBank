@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Testimonial from "../testimonial";
 
 
-const SoftwareCompany = () => {
+const StartUp = () => {
   return (
     <div  className="bg-white">
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-32 pb-16 lg:pb-20">
@@ -70,8 +70,8 @@ const SoftwareCompany = () => {
         <Image 
           src="/images/StartUp.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
@@ -108,4 +108,4 @@ const SoftwareCompany = () => {
     </div>
   );
 };  
-export default SoftwareCompany;
+export default StartUp;

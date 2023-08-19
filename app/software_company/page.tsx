@@ -70,8 +70,8 @@ const SoftwareCompany = () => {
         <Image 
           src="/images/SoftwareCompany.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>

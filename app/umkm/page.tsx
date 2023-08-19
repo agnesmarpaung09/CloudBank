@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Testimonial from "../testimonial";
 
 
-const SoftwareCompany = () => {
+const UMKM = () => {
   return (
     <div  className="bg-white">
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-32 pb-16 lg:pb-20">
@@ -22,7 +22,7 @@ const SoftwareCompany = () => {
               UMKM
             </h1>
             <h2 className="mt-4 text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[500px] lg:w-[700px]">
-               <a>Cloudban Disini</a>
+               <a>Cloudbank Disini</a>
                <p>Untuk Mendukung Bisnis-Mu</p>
             </h2>
             <p className="mt-8 text-md lg:text-lg text-white w-[300px] sm:w-[400px] md:w-[500px] lg:w-[700px] text-justify">
@@ -71,8 +71,8 @@ const SoftwareCompany = () => {
         <Image 
           src="/images/UMKM.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
@@ -109,4 +109,4 @@ const SoftwareCompany = () => {
     </div>
   );
 };  
-export default SoftwareCompany;
+export default UMKM;
