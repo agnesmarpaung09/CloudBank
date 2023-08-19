@@ -53,7 +53,7 @@ const RekanKami = () => {
   };
 
   return (
-    <div className="flex flex-col items-center -mt-28 xl:mt-0 ">
+    <div className="flex flex-col items-center  mt-28 xl:mt-36 ">
       <h1 className="text-3xl md:text-4 xl:text-5xl font-bold absolute z-10 bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent">
         REKAN KAMI
       </h1>
