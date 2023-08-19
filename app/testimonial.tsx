@@ -55,7 +55,7 @@ const Testimonial = () => {
     <div className="items-center mt-24 xl:mt-28 ">
       <Slider {...sliderSettings}>
         {dataTestimoni.map((row, index) => (
-          <div key={index} className="flex items-center mb-28">
+          <div key={index} className="flex items-center mb-24">
             <div className="xl:flex bg-white rounded-2xl shadow-2xl xl:w-auto xl:h-80 mr-10 sm:mr-8 md:mr-16 lg:mr-28 xl:mr-8 2xl:mr-12 items-center ">
               <div className="xl:w-2/3 h-full bg-cover bg-center rounded-xl">
                 <Image
@@ -67,13 +67,13 @@ const Testimonial = () => {
                 />
               </div>
               <div className="xl:w-2/3 p-4 xl:p-0 mx-2 xl:mx-6 2xl:p-4">
-                <h2 className="text-lg sm:text-md font-semibold mt-2 font-poppins">
+                <h2 className="text-lg sm:text-md font-semibold mt-2">
                   {row.name}
                 </h2>
-                <p className="text-sm sm:text-xs mt-2 font-poppins">
+                <p className="text-sm sm:text-xs mt-2 ">
                   {row.busines}
                 </p>
-                <p className="text-md sm:text-sm mt-2 text-justify font-poppins">
+                <p className="text-md sm:text-sm mt-2 text-justify">
                   {row.description}
                 </p>
               </div>
