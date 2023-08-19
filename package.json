@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "@heroicons/react": "^1.0.6",
+=======
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
+>>>>>>> 2bf2300121ba72917c196ec82dd2ae924a2210b1
     "@types/react-dom": "18.2.7",
     "@types/react-slick": "^0.23.10",
     "eslint": "8.46.0",
@@ -18,6 +22,22 @@
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.9",
+    "@types/react": "18.2.20",
+=======
+=======
+    "next": "^13.4.13",
+    "next-transpile-modules": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+>>>>>>> Stashed changes
+=======
+>>>>>>> 06897c24bfc7ebc5f1992f8dcbc8bd4cfc36be20
     "react-icons": "^4.10.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
@@ -28,6 +48,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3",
+>>>>>>> 2bf2300121ba72917c196ec82dd2ae924a2210b1
     "typescript": "5.1.6"
   }
 }

@@ -35,7 +35,7 @@ const InstansiPendidikan = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
           <div className="border-r-4 h-20 mt-16 "></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif mr-6">
+          <h1 className="font-semibold text-sm text-center -mt-24 mr-6">
             Performa Yang Terbaik
           </h1>
           <h2 className="mt-2 text-xs text-justify mr-10">
@@ -45,7 +45,7 @@ const InstansiPendidikan = () => {
         </div>
         <div className="w-72">
         <div className="border-r-4 h-20 mt-16"></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif">
+          <h1 className="font-semibold text-sm text-center -mt-24">
             Keamanan Backup
           </h1>
           <h2 className="mt-2 text-xs text-center mr-4">
@@ -53,7 +53,7 @@ const InstansiPendidikan = () => {
           </h2>
         </div>
         <div className="w-72">
-          <h1 className="font-semibold text-sm text-center mt-12 font-serif">
+          <h1 className="font-semibold text-sm text-center mt-12">
             Dedicated Support
           </h1>
           <h2 className="mt-2 text-xs text-justify mb-8">
