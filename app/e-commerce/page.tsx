@@ -21,10 +21,10 @@ const Ecommerce = () => {
             <h1 className=" font-semibold text-black text-sm sm:text-lg lg:text-xl mb-2 ">
               E-Commerce
             </h1>
-            <h2 className="mt-4 text-black font-bold text-3xl sm:text-4xl lg:text-4xl mb-4 w-full md:w-[400px] lg:w-[600px]">
+            <h2 className="mt-4 text-black font-bold text-3xl sm:text-5xl lg:text-4xl mb-4 w-full md:w-[400px] lg:w-[600px]">
               Produk Hosting Cloudbank Membantu Memberikan Pengalaman E-Commerce Ideal Anda
             </h2>
-            <p className="mt-4 text-md lg:text-xl text-black w-full md:w-[400px] lg:w-[600px] text-justify">
+            <p className="mt-8 text-md lg:text-lg text-black w-full md:w-[300px] lg:w-[500px] text-justify">
               Pelanggan Membutuhkan Banyak Waktu Dan Sumber Daya Untuk Bisnis E-Commerce, Cloudbank Menyediakan
               Fasilitas Untuk Mendukung Pertumbuhan Bisnis E-Commerce Anda.
             </p>
@@ -69,8 +69,8 @@ const Ecommerce = () => {
         <Image 
           src="/images/Ecommerce.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
