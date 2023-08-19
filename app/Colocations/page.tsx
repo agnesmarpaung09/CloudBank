@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import { CheckIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 
 const PackageCard = ({ title, price, features, iconColor, buttonBg }) => {
   return (
@@ -251,5 +251,4 @@ const Colocations = () => {
     </div>
   );
 };
-
 export default Colocations;

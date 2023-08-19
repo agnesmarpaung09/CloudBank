@@ -9,7 +9,7 @@ const PackageCard = ({
   features,
   iconColor,
   buttonBg,
-}) => {
+}: any) => {
   return (
     <div
       className={`bg-white p-4 rounded-lg shadow-2xl relative ${
