@@ -21,10 +21,10 @@ const InstansiPendidikan = () => {
             <h1 className=" font-semibold text-black text-sm sm:text-lg lg:text-lg mb-2 ">
               Instansi Pendidikan
             </h1>
-            <h2 className="mt-2 text-black font-bold text-3xl sm:text-4xl lg:text-4xl mb-4 w-full md:w-[400px] lg:w-[600px]">
+            <h2 className="mt-2 text-black font-bold text-3xl sm:text-4xl lg:text-5xl mb-4 w-full md:w-[400px] lg:w-[600px]">
               Kualitas Pendidikan Anda Merupakan Prioritas kami
             </h2>
-            <p className="mt-4 text-md lg:text-xl text-black w-full md:w-[400px] lg:w-[600px] text-justify">
+            <p className="mt-8 text-md lg:text-lg text-black w-full md:w-[400px] lg:w-[600px] text-justify">
               Cloudbank Menawarkan Layanan Hosting Yang Memadai, kami Selalu Memberikan Performa Yang Tinggi,
               Keamanan Yang Terjamin dan Integrasi Mudah Dengan Sistem Manajemen Pembelajaran.
             </p>
@@ -35,7 +35,7 @@ const InstansiPendidikan = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
           <div className="border-r-4 h-20 mt-16 "></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif mr-6">
+          <h1 className="font-semibold text-sm text-center -mt-24 mr-6">
             Performa Yang Terbaik
           </h1>
           <h2 className="mt-2 text-xs text-justify mr-10">
@@ -45,7 +45,7 @@ const InstansiPendidikan = () => {
         </div>
         <div className="w-72">
         <div className="border-r-4 h-20 mt-16"></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif">
+          <h1 className="font-semibold text-sm text-center -mt-24">
             Keamanan Backup
           </h1>
           <h2 className="mt-2 text-xs text-center mr-4">
@@ -53,7 +53,7 @@ const InstansiPendidikan = () => {
           </h2>
         </div>
         <div className="w-72">
-          <h1 className="font-semibold text-sm text-center mt-12 font-serif">
+          <h1 className="font-semibold text-sm text-center mt-12">
             Dedicated Support
           </h1>
           <h2 className="mt-2 text-xs text-justify mb-8">
@@ -69,8 +69,8 @@ const InstansiPendidikan = () => {
         <Image 
           src="/images/InstansiPendidikan.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
