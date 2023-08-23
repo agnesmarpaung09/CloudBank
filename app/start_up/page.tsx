@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Testimonial from "../testimonial";
 
 
-const SoftwareCompany = () => {
+const StartUp = () => {
   return (
     <div  className="bg-white">
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-32 pb-16 lg:pb-20">
@@ -36,7 +36,7 @@ const SoftwareCompany = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-4 ml-10">
         <div className="w-80">
           <div className="border-r-4 h-20 mt-16 "></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif mr-6">
+          <h1 className="font-semibold text-sm text-center -mt-24 mr-6">
             Performa Yang Terbaik
           </h1>
           <h2 className="mt-2 text-xs text-justify mr-10">
@@ -46,7 +46,7 @@ const SoftwareCompany = () => {
         </div>
         <div className="w-72">
         <div className="border-r-4 h-20 mt-16"></div>
-          <h1 className="font-semibold text-sm text-center -mt-24 font-serif">
+          <h1 className="font-semibold text-sm text-center -mt-24">
             Keamanan Backup
           </h1>
           <h2 className="mt-2 text-xs text-center mr-4">
@@ -54,7 +54,7 @@ const SoftwareCompany = () => {
           </h2>
         </div>
         <div className="w-72">
-          <h1 className="font-semibold text-sm text-center mt-12 font-serif">
+          <h1 className="font-semibold text-sm text-center mt-12">
             Dedicated Support
           </h1>
           <h2 className="mt-2 text-xs text-justify mb-8">
@@ -70,8 +70,8 @@ const SoftwareCompany = () => {
         <Image 
           src="/images/StartUp.PNG"
           alt="Another Image"
-          width={550} 
-          height={550}
+          width={300} 
+          height={300}
           className="rounded-2xl sm:w-auto sm:h-64 lg:w-auto lg:h-80"
         />
       </div>
@@ -108,4 +108,4 @@ const SoftwareCompany = () => {
     </div>
   );
 };  
-export default SoftwareCompany;
+export default StartUp;

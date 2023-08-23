@@ -357,7 +357,7 @@ function page() {
                 </div>
                 <div
                   className={`absolute ${
-                    index === 1 ? "right-4 md:right-10 md:ml-3" : "right-0"
+                    index === 1 ? "right-0 md:right-10 md:ml-3" : "right-0"
                   } bottom-2 bg-opacity-85 p-2 text-center ${
                     index === 1 ? "bg-blue-600 text-white" : "text-blue-500"
                   } rounded-md`}
@@ -675,9 +675,10 @@ function page() {
           />
         </div>
       </div>
+
       <RekanKami />
 
-      <div className="grid sm:grid-cols-2 gap-0 px-8 items-center -mt-28 lg:mt-0">
+      <div className="grid sm:grid-cols-2 gap-0 px-8 items-center mt-28 xl:mt-36">
         <div className="lg:pl-12 xl:pl-28 2xl:pl-40 flex flex-col justify-start ml-20">
           <h1
             className="text-2xl lg:text-4xl xl:text-4xl 2xl:text-4xl font-semibold mb-4 text-blue-700"
