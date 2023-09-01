@@ -17,7 +17,7 @@ const UMKM = () => {
         <div className="absolute inset-0 flex mt-20 lg:mt-24">
           <div
             id="home"
-            className="text-left mx-6 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-24">
+            className="text-left mx-20 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-24">
             <h1 className=" font-semibold text-white text-lg sm:text-xl lg:text-2xl mb-4 ">
               UMKM
             </h1>

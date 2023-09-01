@@ -17,7 +17,7 @@ const InstansiPendidikan = () => {
         <div className="absolute inset-0 flex mt-20 lg:mt-24">
           <div
             id="home"
-            className="text-left mx-6 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-22">
+            className="text-left mx-20 lg:px-12 xl:px-28 2xl:px-48 py-10 mt-24">
             <h1 className=" font-semibold text-black text-sm sm:text-lg lg:text-lg mb-2 ">
               Instansi Pendidikan
             </h1>
