@@ -199,7 +199,7 @@ const VPS = () => {
       <div className="bg-blue-900 h-[200px]">
         <div className="text-white relative">
           <div
-            className="relative pb-60"
+            className="relative pb-80"
             style={{
               backgroundImage: `url('/Bg-VPS.png')`,
               backgroundPosition: "center",
@@ -208,7 +208,7 @@ const VPS = () => {
             }}
           ></div>
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-8">
-            <h1 className="text-3xl font-bold mt-10">
+            <h1 className="text-2xl font-bold mt-16">
               Hosting VPS Murah Di Batam Menggunakan SSD Super Cepat
             </h1>
             <p className="text-sm mt-4">
@@ -223,15 +223,15 @@ const VPS = () => {
         </div>
       </div>
 
-      <section className="py-32 text-center bg-white shadow-lg rounded-lg p-8">
-        <h2 className="text-2xl md:text-4 xl:text-3xl font-bold relative">
-          <span className="bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-shadow">
+      <section className="mt-20 text-center bg-white shadow-lg rounded-lg p-8">
+        <div className="flex justify-center items-center pt-6 mb-10 mt-14">
+          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
             MENGAPA VPS CLOUDBANK?
-          </span>
-        </h2>
-        <h3 className="text-xl md:text-xl xl:text-2xl font-semibold text-gray-900">
-          Mengapa VPS Cloudbank?
-        </h3>
+          </h1>
+          <h2 className="capitalize text-xl pt-14 md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute z-10 w-[800px]">
+            Mengapa VPS Cloudbank?
+          </h2>
+        </div>
         <div className="flex justify-center mt-4">
           <div className="w-full max-w-5xl overflow-x-auto">
             <div className="md:flex flex-col">
@@ -281,14 +281,14 @@ const VPS = () => {
       </section>
 
       <section className="bg-white text-center py-8">
-        <h2 className="text-xl md:text-3xl font-bold relative">
-          <span className="bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-shadow">
+      <div className="flex justify-center items-center pt-6 mb-24">
+          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
             PERBANDINGAN PAKET HARGA VPS HOSTING
-          </span>
-        </h2>
-        <h3 className="text-lg md:text-xl xl:text-2xl font-semibold text-gray-900 mt-2">
-          Perbandingan Paket Harga VPS Hosting
-        </h3>
+          </h1>
+          <h2 className="capitalize text-xl pt-16 md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute z-10 w-[800px]">
+            Perbandingan Paket Harga VPS Hosting
+          </h2>
+        </div>
         <div className="flex justify-center mt-4">
           <div className="w-full md:max-w-5xl overflow-x-auto">
             <table className="w-full table-auto border md:border-collapse">
@@ -361,44 +361,6 @@ const VPS = () => {
         </div>
       </section>
 
-      <section className="py-20 text-center mb-32">
-        <div className="flex justify-center mt-8">
-          <div className=" max-w-4xl absolute ">
-            <Image
-              src="/Subtract.png"
-              alt="Subtract"
-              width={1300}
-              height={170}
-              className="w-[1300px] h-[170px] mb-6"
-            />
-            <div>
-              <Image
-                src="/shape1.png"
-                alt="shape1"
-                width={800}
-                height={98}
-                className="w-[800px] h-[98px] -mt-56 mr-32mx-auto"
-              />
-            </div>
-            <div className="text-left -mt-8 ml-28 text-white ">
-              <h1>Anda Mempunyai Pertanyaan?</h1>
-              <p className=" mt-2 ">
-                Silahkan Hubungi Langsung Help Center Kami.
-              </p>
-            </div>
-            <Image
-              src="/shape3.png"
-              alt="shape3"
-              width={330}
-              height={66}
-              className="w-[330px] h-[66px] absolute right-0 -mt-9 mr-4 block"
-            />
-            <p className="font-semibold text-white relative ml-96 -mr-40 -top-5">
-              Hubungi Kami
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
