@@ -17,7 +17,7 @@ const DropDownMenu = ({ title, subMenuItems }) => {
   return (
     <div
       className={`relative inline-block ${isOpen ? "z-10" : ""}`}
-      onBlur={closeSubMenu}
+      // onBlur={closeSubMenu}
     >
       <button onClick={toggleSubMenu} className="flex items-center">
         {title}

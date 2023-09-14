@@ -214,10 +214,10 @@ const reseller = () => {
       <div className="bg-[#F9FAFE]">
         <img src="/bgResseller1.svg" alt="" className=" w-12 xl:w-[70px]" />
         <div className="flex justify-center items-center xl:pt-6 ">
-          <h1 className="text-center text-2xl md:text-4xl xl:text-5xl  font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent ">
+          <h1 className="text-center text-2xl md:text-4xl xl:text-5xl  font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent ">
             KENAPA HARUS BERGABUNG DENGAN
           </h1>
-          <h2 className="capitalize text-xl md:text-3xl font-semibold pt-6 md:pt-16 px-6  text-center text-[#343A3E] absolute z-10">
+          <h2 className="capitalize text-xl md:text-3xl font-semibold pt-6 md:pt-16 px-6  text-center text-[#343A3E] absolute">
             kenapa harus bergabung dengan cloudbank reseller?
           </h2>
         </div>
