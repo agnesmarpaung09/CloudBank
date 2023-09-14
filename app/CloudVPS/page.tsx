@@ -208,7 +208,7 @@ const VPS = () => {
             }}
           ></div>
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-8">
-            <h1 className="text-2xl font-bold mt-16">
+            <h1 className="text-3xl font-bold mt-16">
               Hosting VPS Murah Di Batam Menggunakan SSD Super Cepat
             </h1>
             <p className="text-sm mt-4">
@@ -216,23 +216,23 @@ const VPS = () => {
               Heza Core Intel Ceon Dan <br />
               Support 24 Jam Melalui Email, Live Chat Dan Remote Access.
             </p>
-            <button className="mx-auto mt-8 bg-orange-500 text-white py-1 px-2 rounded w-40">
+            <button className="mx-auto mt-6 bg-orange-500 text-white py-1 px-2 rounded w-40">
               Mulai Sekarang
             </button>
           </div>
         </div>
       </div>
 
-      <section className="mt-20 text-center bg-white shadow-lg rounded-lg p-8">
-        <div className="flex justify-center items-center pt-6 mb-10 mt-14">
-          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
-            MENGAPA VPS CLOUDBANK?
-          </h1>
-          <h2 className="capitalize text-xl pt-14 md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute z-10 w-[800px]">
-            Mengapa VPS Cloudbank?
-          </h2>
-        </div>
-        <div className="flex justify-center mt-4">
+      <section className="mt-36 text-center bg-white shadow-lg rounded-lg p-8">
+        {/* <div className="flex justify-center items-center pt-6 mb-10 mt-14"> */}
+        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
+          MENGAPA VPS CLOUDBANK?
+        </h1>
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mb-8 text-[#343A3E] z-10">
+          Mengapa VPS Cloudbank?
+        </h2>
+        {/* </div> */}
+        <div className="flex justify-center -mt-10">
           <div className="w-full max-w-5xl overflow-x-auto">
             <div className="md:flex flex-col">
               <div className="bg-white border border-gray-400 shadow-lg p-4 mt-10 rounded-lg">
@@ -280,16 +280,17 @@ const VPS = () => {
         </div>
       </section>
 
-      <section className="bg-white text-center py-8">
-      <div className="flex justify-center items-center pt-6 mb-24">
-          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
-            PERBANDINGAN PAKET HARGA VPS HOSTING
+      <section className="bg-white text-center -mt-44">
+        <div className="flex flex-col justify-center items-center min-h-screen pt-6 mb-8">
+          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
+            PERBBANDINGAN PAKET HARGA CLOUD HOSTING
           </h1>
-          <h2 className="capitalize text-xl pt-16 md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute z-10 w-[800px]">
-            Perbandingan Paket Harga VPS Hosting
+          <h2 className="capitalize text-xl md:text-3xl font-semibold mb-8 text-[#343A3E] z-10">
+            Perbandingan Paket Harga Cloud Hosting
           </h2>
         </div>
-        <div className="flex justify-center mt-4">
+
+        <div className="flex justify-center -mt-64">
           <div className="w-full md:max-w-5xl overflow-x-auto">
             <table className="w-full table-auto border md:border-collapse">
               <thead>
@@ -360,7 +361,6 @@ const VPS = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
