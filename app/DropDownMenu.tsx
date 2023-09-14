@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineDown } from "react-icons/ai";
-import SoftwareCompany from "./software_company/page";
 
 const DropDownMenu = ({ title, subMenuItems }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ const DropDownMenu = ({ title, subMenuItems }) => {
   return (
     <div
       className={`relative inline-block ${isOpen ? "z-10" : ""}`}
-      onBlur={closeSubMenu}
+      // onBlur={closeSubMenu}
     >
       <button onClick={toggleSubMenu} className="flex items-center">
         {title}

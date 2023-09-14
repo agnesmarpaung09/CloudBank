@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import DropDownMenu from "./DropDownMenu";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import page from "./page";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -69,11 +70,11 @@ const Header = () => {
             <DropDownMenu
               title="Produk"
               subMenuItems={[
-                { label: "Domain", link: "/produk/domain" },
-                { label: "Cloud Hosting", link: "/produk/cloudhosting" },
-                { label: "Cloud VPS", link: "/produk/cloudvps" },
-                { label: "Colocations", link: "/produk/colocations" },
-                { label: "RACK Solution", link: "/produk/racksolution" },
+                { label: "Domain", link: "/produk_domain" },
+                { label: "Cloud Hosting", link: "/produk_cloudhosting" },
+                { label: "Cloud VPS", link: "/CloudVPS" },
+                { label: "Colocations", link: "/Colocations" },
+                { label: "RACK Solution", link: "/RackSolution" },
               ]}
             />
           </li>
@@ -84,8 +85,8 @@ const Header = () => {
             <DropDownMenu
               title="Kemitraan"
               subMenuItems={[
-                { label: "Affiliate", link: "/kemitraan/affiliate" },
-                { label: "Reseller", link: "/kemitraan/reseller" },
+                { label: "Affiliate", link: "/affiliate" },
+                { label: "Reseller", link: "/reseller" },
               ]}
             />
           </li>
@@ -93,21 +94,21 @@ const Header = () => {
             <DropDownMenu
               title="Solusi Bisnis"
               subMenuItems={[
-                { label: "E-Commerce", link: "/solusibisnis/ecommerce" },
+                { label: "E-Commerce", link: "/e-commerce" },
                 {
                   label: "Instansi Pendidikan",
-                  link: "/solusibisnis/instansipendidikan",
+                  link: "/instansi_pendidikan",
                 },
                 {
                   label: "Organisasi Non Profit",
-                  link: "/solusibisnis/organisasinonprofit",
+                  link: "/organisasi_non_profit",
                 },
-                { label: "Blog Pribadi", link: "/solusibisnis/blogpribadi" },
-                { label: "Start Up", link: "/solusibisnis/startup" },
-                { label: "UMKM", link: "/solusibisnis/umkm" },
+                { label: "Blog Pribadi", link: "/blog_pribadi" },
+                { label: "Start Up", link: "/start_up" },
+                { label: "UMKM", link: "/umkm" },
                 {
                   label: "Software Company",
-                  link: "/solusibisnis/softwarecompany",
+                  link: "/software_company",
                 },
               ]}
             />
@@ -153,18 +154,18 @@ const Header = () => {
               : "fixed top-0 left-0 w-1/2 h-screen text-black bg-white  transform -translate-x-full transition-transform duration-300 ease-in-out sm:hidden"
           }
         >
-          <div className="fixed top-0 left-0 w-full h-screen bg-white z-50">
+          <div className="fixed top-0 left-0 w-full h-screen bg-white z-50 overflow-y-auto">
             <div className="flex flex-col h-full justify-center items-center space-y-4">
               <ul className="text-4xl">
                 <li className="p-4 text-2xl hover:text-gray-500 border rounded-lg border-gray-300  transition-colors duration-300">
                   <DropDownMenu
                     title="Produk"
                     subMenuItems={[
-                      { label: "Domain", link: "/produk/domain" },
-                      { label: "Cloud Hosting", link: "/produk/cloudhosting" },
-                      { label: "Cloud VPS", link: "/produk/cloudvps" },
-                      { label: "Colocations", link: "/produk/colocations" },
-                      { label: "RACK Solution", link: "/produk/racksolution" },
+                      { label: "Domain", link: "/produk_domain" },
+                      { label: "Cloud Hosting", link: "/produk_cloudhosting" },
+                      { label: "Cloud VPS", link: "/CloudVPS" },
+                      { label: "Colocations", link: "/Colocations" },
+                      { label: "RACK Solution", link: "/RackSolution" },
                     ]}
                   />
                 </li>
@@ -175,8 +176,8 @@ const Header = () => {
                   <DropDownMenu
                     title="Kemitraan"
                     subMenuItems={[
-                      { label: "Affiliate", link: "/kemitraan/affiliate" },
-                      { label: "Reseller", link: "/kemitraan/reseller" },
+                      { label: "Affiliate", link: "/affiliate" },
+                      { label: "Reseller", link: "/reseller" },
                     ]}
                   />
                 </li>
@@ -184,24 +185,24 @@ const Header = () => {
                   <DropDownMenu
                     title="Solusi Bisnis"
                     subMenuItems={[
-                      { label: "E-Commerce", link: "/solusibisnis/ecommerce" },
+                      { label: "E-Commerce", link: "/e-commerce" },
                       {
                         label: "Instansi Pendidikan",
-                        link: "/solusibisnis/instansipendidikan",
+                        link: "/instansi_pendidikan",
                       },
                       {
                         label: "Organisasi Non Profit",
-                        link: "/solusibisnis/organisasinonprofit",
+                        link: "/organisasi_non_profit",
                       },
                       {
                         label: "Blog Pribadi",
-                        link: "/solusibisnis/blogpribadi",
+                        link: "/blog_pribadi",
                       },
-                      { label: "Start Up", link: "/solusibisnis/startup" },
-                      { label: "UMKM", link: "/solusibisnis/umkm" },
+                      { label: "Start Up", link: "/start_up" },
+                      { label: "UMKM", link: "/umkm" },
                       {
                         label: "Software Company",
-                        link: "/solusibisnis/software_company",
+                        link: "/software_company",
                       },
                     ]}
                   />
