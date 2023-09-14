@@ -60,32 +60,43 @@ const ProdukCloudHosting = () => {
 
   return (
     <>
-      <div className="relative min-h-screen">
-        <div className="absolute inset-0">
+      <div className="relative  overflow-auto">
+        <div className=" w-full overflow-auto" >
+        <div className = "inset-0">
           <img
             src="images/produk_cloudhosting/BG LAYER 1.png"
             alt="Background Image"
             className="w-full h-1/4 "
           />
         </div>
-        <div className="text-center bg-opacity-10 p-8 md:p-24 font-cabinet-grotesk relative z-10">
-          <h1 className="capitalize text-3xl font-bold mb-3 text-white">
+
+      
+        <div className="top-0 left-0 flex flex-col justify-center items-center text-white bg-opacity-50 -mt-52 ">
+          <h1 className="capitalize text-3xl font-bold ">
             Hosting Batam Cepat dan Terpercaya
           </h1>
-          <h3 className="text-lg capitalize mx-auto text-white w-full md:w-[700px]">
-            Mulailah pengalaman bisnis online anda dengan hosting bersama
-            cloudbank dengan layanan terpercaya
-          </h3>
+          <h3 className="text-lg text-center text-md-start capitalize mx-auto w-100 w-md-75">
+              Mulailah pengalaman bisnis online anda dengan hosting bersama
+              cloudbank dengan layanan terpercaya
+            </h3>
 
+          </div>
+
+        <div className="text-center bg-opacity-10 p-8 md:p-24 font-cabinet-grotesk relative  ">
+          
           <div className="flex justify-center items-center h-screen  ">
-            <div className="text-center mt-32">
+            <div className="text-center ">
               <h1 className="text-3xl md:text-4 xl:text-5xl font-bold bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent">
                 PAKET HARGA CLOUD HOSTING
               </h1>
               <h2 className="text-xl md:text-2xl xl:text-3xl font-semibold text-gray-900">
                 Paket Harga Cloud Hosting
               </h2>
-              <table className="mx-auto mt-10 border-collapse w-[1200px]">
+
+              <div className=" flex justify-center mt-4 ">
+              <div className='w-full md:max-w-5xl overflow-x-auto'>
+
+              <table className=" w-full table-auto border md:border-collapse ">
                 <thead>
                   <tr className="text-sm">
                     <th className="border bg-cyan-50 text-xl text-justify px-4 py-2 w-[150px] ">
@@ -106,7 +117,7 @@ const ProdukCloudHosting = () => {
                         onClick={() => {
                           setOpenModal(true)
                         }}
-                        className="border z-[99] border-blue-400 w-24 p-2 text-blue-500 px-2 py-1 rounded-lg mt-3"
+                        className="border z-[99] bg-blue-500 border-blue-400 w-24 p-2 text-white px-2 py-1 rounded-lg mt-3"
                       >
                         Beli
                       </button>
@@ -122,7 +133,7 @@ const ProdukCloudHosting = () => {
                         </span>{" "}
                         36rb/Bulan
                       </p>
-                      <button className="bg-blue-500 w-24 text-white px-2 py-1 rounded-lg mt-3">
+                      <button className=" border z-[99] border-blue-400 w-24 text-blue-500 px-2 py-1 rounded-lg mt-3">
                         Beli
                       </button>
                     </th>
@@ -219,26 +230,31 @@ const ProdukCloudHosting = () => {
                     </tr>
                   ))}
                 </tbody>
-              </table>
+              </table> 
+              </div>
+              </div> 
+              </div>
+
             </div>
           </div>
         </div>
 
-        <div className=" ml-32 ">
-          <p className=" text-gray-800 font-semibold text-2xl ">
-            {" "}
-            Pelayanan Kami
-          </p>
-          <p className="capitalize  text-gray-700 text-lg pt-2 w-[350px]">
-            kenapa memilih cloudbank sebagai partner anda?
-          </p>
-        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2  w-full sm:w-[1050px] mx-auto  ">
+          <div  className="">
+            <p className=" text-gray-800 font-semibold text-2xl ">
+              {" "}
+              Pelayanan Kami
+            </p>
+            <p className="capitalize  text-gray-700 text-lg pt-2 w-[350px]">
+              kenapa memilih cloudbank sebagai partner anda?
+            </p>
+            <img src="images/produk_cloudhosting/Group 1.png" className="w-96 h-96" alt=" Image" />
+          </div>
+          <div className=" pt-8 flex ">
+         
 
-        <div className=" pt-8 ml-36 w-80 h-80">
-          <img src="images/produk_cloudhosting/Group 1.png" alt=" Image" />
-
-          <div className="grid justify-between grid-cols-2 gap-12 absolute ml-96 -mt-96 mr-28 ">
-            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-72 h-72 hover:bg-gray-50 transition duration-100">
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-12">
+            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-64 h-64 hover:bg-gray-50 transition duration-100">
               <div className=" flex  justify-center">
                 <img
                   src="images/produk_cloudhosting/aman dan terjaga.png"
@@ -258,7 +274,7 @@ const ProdukCloudHosting = () => {
             </div>
 
             {/* Kotak kedua */}
-            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-72 h-72 hover:bg-gray-50 transition duration-100">
+            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-64 h-64 hover:bg-gray-50 transition duration-100">
               <div className=" flex  justify-center">
                 <img
                   src="images/produk_cloudhosting/dedicate.png"
@@ -278,7 +294,7 @@ const ProdukCloudHosting = () => {
             </div>
 
             {/* Kotak ketiga */}
-            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-72 h-72 hover:bg-gray-50 transition duration-100">
+            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-64 h-64 hover:bg-gray-50 transition duration-100">
               <div className=" flex  justify-center">
                 <img
                   src="images/produk_cloudhosting/garansi uptime.png"
@@ -298,7 +314,7 @@ const ProdukCloudHosting = () => {
             </div>
 
             {/* Kotak keempat */}
-            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-72 h-72 hover:bg-gray-50 transition duration-100">
+            <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-64 h-64 hover:bg-gray-50 transition duration-100">
               <div className=" flex  justify-center">
                 <img
                   src="images/produk_cloudhosting/keamanan backup.png"
@@ -316,6 +332,7 @@ const ProdukCloudHosting = () => {
               </h3>
             </div>
           </div>
+        </div>
         </div>
         <Modal
           open={openModal}

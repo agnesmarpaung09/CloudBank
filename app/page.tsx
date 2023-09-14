@@ -107,10 +107,10 @@ function page() {
         />
       </div>
       <div className="flex flex-col items-center mt-1 xl:mt-0 ">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold absolute z-10 bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-center px-4 sm:px-8">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
           JASA DOMAIN, HOSTING, VPS TERBAIK
         </h1>
-        <h2 className=" text-xl md:text-2xl xl:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-black absolute z-10">
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute ">
           Jasa Domain, Hosting, VPS Terbaik
         </h2>
       </div>
@@ -124,18 +124,19 @@ function page() {
           </span>
         </p>
       </div>
-      <div className="flex justify-center mt-16">
+      <div className="grid justify-center mt-4">
         <img
           src="/images/landing/Group11710.png"
           alt="JasaDomain"
-          className="w-full max-w-screen-md h-auto"
+          className="w-full sm:w-auto md:max-w-md h-auto"
         />
       </div>
+
       <div className="flex flex-col items-center mt-28 xl:mt-36 ">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold absolute z-10 bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-center px-4 sm:px-8">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
           BERAGAM PAKET HOSTING
         </h1>
-        <h2 className=" text-xl md:text-2xl xl:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-black absolute z-10">
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute ">
           Beragam Paket Hosting
         </h2>
       </div>
@@ -404,15 +405,15 @@ function page() {
         />
       </div>
       <div className="flex flex-col items-center mt-28 xl:mt-40 ">
-        <h1 className="text-3xl md:text-4 xl:text-5xl font-bold absolute z-10 bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
           FITUR KAMI
         </h1>
-        <h2 className=" text-xl md:text-2xl xl:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-black absolute z-10">
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mt-4 xl:mt-6 mb-8 text-center text-[#343A3E] absolute ">
           Fitur Kami
         </h2>
       </div>
       <div className="flex mt-20 justify-center">
-        <div className="grid grid-cols-3 gap-4 ml-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ml-4">
           <div className="p-4 flex flex-col justify-center mr-10">
             <div className="flex items-center mb-2">
               <img
@@ -425,15 +426,17 @@ function page() {
               Penyimpanan 100% SSD <br />
               Super Cepat <br />
             </h1>
-            <p className="text-black text-md lg:text-lg  text-justify mx-auto mt-4">
+            <p className="text-black text-md lg:text-lg mt-2">
               SSD Memiliki Waktu Akses Yang Lebih Rendah, <br />
               Waktu Tunggu (Latency) Yang Rendah Dan <br />
-              IOPS Hingga 100x Lebih Tinggi Dari Pada HDD. <br />
+              IOPS Hingga 100x Lebih Tinggi Dari Pada HDD.
+              <br />
               Server VPS Kami Menggunakan 100% SSD <br />
-              Kelas Enterprise (Bukan SSD Caching). <br />
+              Kelas Enterprise (Bukan SSD Caching).
+              <br />
             </p>
           </div>
-          <div className="p-4 flex flex-col justify-between">
+          <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
             <div className="flex items-center mb-2 mt-0">
               <img
                 src="/images/landing/Group.png"
@@ -451,7 +454,7 @@ function page() {
               Anda Dalam Hitungan Detik. <br />
             </p>
           </div>
-          <div className=" p-4 flex flex-col justify-between">
+          <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
             <div className="flex items-center mb-2 mt-0">
               <img
                 src="/images/landing/Group-1.png"
@@ -472,7 +475,7 @@ function page() {
         </div>
       </div>
       <div className="flex mt-20 justify-center">
-        <div className="grid grid-cols-3 gap-4 ml-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ml-4">
           <div className="p-4 flex flex-col justify-center mr-10">
             <div className="flex items-center mb-2">
               <img
@@ -641,7 +644,7 @@ function page() {
                     Metode Pembayaran Kami:
                   </h1>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-col sm:flex-row items-center md:pt-4">
                   <img
                     src="/images/landing/bca.png"
                     alt="bca"
