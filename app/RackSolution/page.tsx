@@ -174,14 +174,14 @@ const RankSolution = () => {
       </div>
 
       <section className="py-20 bg-white rounded-lg p-8 text-center">
-        <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold relative">
-          <span className="bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-shadow">
-            SERVIS KAMI
-          </span>
-        </h2>
-        <h3 className="text-xl md:text-3xl xl:text-4xl font-semibold text-gray-900">
+        {/* <div className="flex justify-center items-center pt-6 mb-10 mt-14"> */}
+        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
           SERVIS KAMI
-        </h3>
+        </h1>
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mb-8 text-[#343A3E] z-10">
+          Servis Kami
+        </h2>
+        {/* </div> */}
 
         <div className="mx-auto max-w-4xl grid md:grid-cols-1 lg:grid-cols-3 gap-16 mt-12 text-justify text-sm justify-center">
           <div className="bg-white shadow-lg p-4 rounded-lg relative">
@@ -233,14 +233,14 @@ const RankSolution = () => {
       </section>
 
       <section className="py-20 text-center -mt-16">
-        <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold relative">
-          <span className="bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent text-shadow">
-            PILIH PAKET COLOCATION
-          </span>
-        </h2>
-        <h3 className="text-xl md:text-3xl xl:text-4xl font-semibold text-gray-900">
+        {/* <div className="flex justify-center items-center pt-6 mt-24"> */}
+        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
+          PILIH PAKET COLOCATION
+        </h1>
+        <h2 className="capitalize text-xl md:text-3xl font-semibold mb-8 text-[#343A3E] z-10">
           Pilih Paket Colocation
-        </h3>
+        </h2>
+        {/* </div> */}
 
         <div className="relative z-10 ">
           <img
@@ -248,7 +248,7 @@ const RankSolution = () => {
             alt="Shape"
             width="100"
             height="84"
-            className="w-28 h-16 absolute top-0 left-0 mt-44"
+            className="w-28 h-16 absolute top-0 left-0 mt-36"
           />
         </div>
 
@@ -260,7 +260,7 @@ const RankSolution = () => {
             height={200}
             className="w-[1920px] h-[200px] top-[1316px] bg-gray-200 mt-52"
           />
-          <div className="mx-auto max-w-4xl grid grid-cols-3 gap-8 -mt-72 text-justify text-xs justify-center">
+          <div className="mx-auto max-w-4xl grid md:grid-cols-3 gap-12 -mt-72 text-justify text-xs justify-center">
             {packages.map((pkg) => (
               <PackageCard key={pkg.title} {...pkg} />
             ))}
