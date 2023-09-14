@@ -134,7 +134,7 @@ const reseller = () => {
             profesional dan dapatkan fitur integrasi user management, white
             label invoice dan markup dengan harga yang jauh lebih murah
           </p>
-          <div className=" flex items-center justify-center md:justify-end pt-6 md:mt-16 px-6 md:px-0 md:pr-32">
+          <div className=" flex items-center justify-center md:justify-end pt-6 lg:mt-16 px-6 md:px-0 md:pr-32">
             <div className="bg-[#FCFCFC] shadow-2xl rounded-2xl  max-w-lg">
               <div className="bg-[#1373F6]  text-white rounded-t-2xl py-4 ">
                 <h2 className=" text-sm sm:text-lg font-semibold mb-2 text-center capitalize">
@@ -222,7 +222,7 @@ const reseller = () => {
           </h2>
         </div>
 
-        <div className="mx-auto flex flex-col-reverse md:flex-row">
+        <div className="mx-auto flex flex-col-reverse lg:flex-row">
           <div className="xl:w-2/5  pt-6 sm:pl-12  xl:pl-0 order-2">
             <img src="/images/resseller1.png" alt="resseller" />
           </div>
@@ -395,7 +395,7 @@ const reseller = () => {
             </div>
           </div>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <img
             src="/images/produk_domain/Group 291.png"
             alt="png Group 291"
@@ -414,7 +414,7 @@ const reseller = () => {
               <p>Hubungi Kami</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -52,12 +52,12 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="items-center mt-24 xl:mt-28 ">
+    <div className="items-center mt-36 xl:mt-38 ">
       <Slider {...sliderSettings}>
         {dataTestimoni.map((row, index) => (
           <div key={index} className="flex items-center mb-24">
             <div className="xl:flex bg-white rounded-2xl shadow-2xl xl:w-auto xl:h-80 mr-10 sm:mr-8 md:mr-16 lg:mr-28 xl:mr-8 2xl:mr-12 items-center ">
-              <div className="xl:w-2/3 h-full bg-cover bg-center rounded-xl">
+              <div className="xl:w-1/3 h-full bg-cover bg-center rounded-xl">
                 <Image
                   src={row.image}
                   alt={`Testimonial ${index + 1}`}
