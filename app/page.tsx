@@ -396,6 +396,19 @@ function page() {
           ))}
         </div>
       </div>
+      <div className="text-center mt-8">
+        <span
+          className="text-blue-500 text-md cursor-pointer"
+          style={{ textDecoration: "underline", fontWeight: "semibold" }}
+        >
+          Lihat Paket Lainnya
+          <img
+            src="/images/landing/panah.svg"
+            alt="Lihat Paket Lainnya"
+            className="inline-block ml-3"
+          />
+        </span>
+      </div>
 
       <div className="flex items-center">
         <img
@@ -422,18 +435,14 @@ function page() {
                 className="w-20 h-auto mb-2"
               />
             </div>
-            <h1 className="text-black text-md lg:text-lg font-bold">
-              Penyimpanan 100% SSD <br />
-              Super Cepat <br />
+            <h1 className="text-black text-md lg:text-lg font-bold text-justify">
+              Penyimpanan 100% SSD Super Cepat
             </h1>
-            <p className="text-black text-md lg:text-lg mt-2">
-              SSD Memiliki Waktu Akses Yang Lebih Rendah, <br />
-              Waktu Tunggu (Latency) Yang Rendah Dan <br />
-              IOPS Hingga 100x Lebih Tinggi Dari Pada HDD.
-              <br />
-              Server VPS Kami Menggunakan 100% SSD <br />
-              Kelas Enterprise (Bukan SSD Caching).
-              <br />
+            <p className="text-black text-md lg:text-lg mt-2 text-justify">
+              SSD Memiliki Waktu Akses Yang Lebih Rendah, Waktu Tunggu (Latency)
+              Yang Rendah Dan IOPS Hingga 100x Lebih Tinggi Dari Pada HDD.
+              Server VPS Kami Menggunakan 100% SSD Kelas Enterprise (Bukan SSD
+              Caching).
             </p>
           </div>
           <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
@@ -447,11 +456,10 @@ function page() {
             <h1 className="text-black text-md lg:text-lg font-bold ">
               Setup Dalam 1 Menit
             </h1>
-            <p className="text-black text-md lg:text-lg mt-2">
-              Tak Perlu Menunggu. Tinggal Lakukan <br />
-              Pemesanan, Bayar Dan Sistem Kami Secara <br />
-              Otomatis Akan Mempersiapkan Server VPS <br />
-              Anda Dalam Hitungan Detik. <br />
+            <p className="text-black text-md lg:text-lg mt-2 text-justify">
+              Tak Perlu Menunggu. Tinggal Lakukan Pemesanan, Bayar Dan Sistem
+              Kami Secara Otomatis Akan Mempersiapkan Server VPS Anda Dalam
+              Hitungan Detik.
             </p>
           </div>
           <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
@@ -465,11 +473,10 @@ function page() {
             <h1 className="text-black text-md lg:text-lg font-bold">
               Processor Performa Tinggi
             </h1>
-            <p className="text-black text-md lg:text-lg">
-              Tak Perlu Menunggu. Tinggal Lakukan <br />
-              Pemesanan, Bayar Dan Sistem Kami Secara <br />
-              Otomatis Akan Mempersiapkan Server VPS <br />
-              Anda Dalam Hitungan Detik. <br />
+            <p className="text-black text-md lg:text-lg text-justify">
+              Tak Perlu Menunggu. Tinggal Lakukan Pemesanan, Bayar Dan Sistem
+              Kami Secara Otomatis Akan Mempersiapkan Server VPS Anda Dalam
+              Hitungan Detik.
             </p>
           </div>
         </div>
@@ -487,12 +494,10 @@ function page() {
             <h1 className="text-black text-md lg:text-lg font-bold">
               Sumber Daya Terjamin
             </h1>
-            <p className="text-black text-md lg:text-lg  text-justify mx-auto mt-4">
-              Yakinlah Bahwa Anda Mendapatkan Sumber <br />
-              Data Memory, Disk Space Dan Sumber Daya <br />
-              Pemrosesan Saat Dibutuhkan. Tidak Akan Ada <br />
-              Penurunan Kinerja Yang Diakibatkan Oleh <br />
-              Pengguna Hosting Lain. <br />
+            <p className="text-black text-md lg:text-lg mx-auto mt-4 text-justify">
+              Yakinlah Bahwa Anda Mendapatkan Sumber Data Memory, Disk Space Dan
+              Sumber Daya Pemrosesan Saat Dibutuhkan. Tidak Akan Ada Penurunan
+              Kinerja Yang Diakibatkan Oleh Pengguna Hosting Lain.
             </p>
           </div>
           <div className="p-4 flex flex-col justify-between">
@@ -506,10 +511,9 @@ function page() {
             <h1 className="text-black text-md lg:text-lg font-bold ">
               Absolute Control
             </h1>
-            <p className="text-black text-md lg:text-lg mt-4">
-              Anda Memiliki Kontrol Untuk Menginstall <br />
-              Aplikasi Apapun Dan Mengelola Server Virtual <br />
-              Anda Apapun Yang Anda Inginkan. <br />
+            <p className="text-black text-md lg:text-lg mt-4 text-justify">
+              Anda Memiliki Kontrol Untuk Menginstall Aplikasi Apapun Dan
+              Mengelola Server Virtual Anda Apapun Yang Anda Inginkan.
             </p>
           </div>
           <div className="p-4 flex flex-col justify-between">
@@ -523,10 +527,9 @@ function page() {
             <h1 className="text-black text-md lg:text-lg font-bold">
               Upgrade Kapan Saja
             </h1>
-            <p className="text-black text-md lg:text-lg">
-              VPS Linus Adalah Solusi Tepat Untuk <br />
-              Membantu Anda. Ganti Dengan VPS Linux SSD <br />
-              Untuk Performa Lebih Tinggi Kapan Saja. <br />
+            <p className="text-black text-md lg:text-lg text-justify">
+              VPS Linus Adalah Solusi Tepat Untuk Membantu Anda. Ganti Dengan
+              VPS Linux SSD Untuk Performa Lebih Tinggi Kapan Saja.
             </p>
           </div>
         </div>
