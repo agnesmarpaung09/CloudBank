@@ -1,7 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Feature from "./our_feature";
 import RekanKami from "./RekanKami";
+import { Features } from "./datas/our_feature.json";
+import { Partnership } from "./datas/partner_data.json";
 
 function page() {
   const [showPassword, setShowPassword] = useState(false);
@@ -31,67 +34,8 @@ function page() {
   };
 
   // Fitur Kami
-  const sections = [
-    {
-      image: "/images/landing/Outline.png",
-      name: "Penyimpanan 100% SSD Super Cepat",
-      description:
-        "SSD memiliki waktu akses yang lebih rendah, waktu tunggu (latency) yang rendah dan IOPS hingga 100x lebih tinggi dari pada HDD. Server VPS kami menggunakan 100% SSD kelas enterprise (bukan SSD caching).",
-    },
-    {
-      image: "/images/landing/Group.png",
-      name: "Setup Dalam 1 Menit",
-      description:
-        "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik.",
-    },
-    {
-      image: "/images/landing/Group-1.png",
-      name: "Processor Performa Tinggi",
-      description:
-        "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik.",
-    },
-    {
-      image: "/images/landing/Group-2.png",
-      name: "Sumber Daya Terjamin",
-      description:
-        "Yakinlah bahwa Anda mendapatkan sumber daya memory, disk space, dan sumber daya pemrosesan saat dibutuhkan. Tidak akan ada penurunan kinerja yang diakibatkan oleh pengguna hosting lain.",
-    },
-    {
-      image: "/images/landing/Group-3.png",
-      name: "Absolute Control",
-      description:
-        "Anda memiliki kontrol untuk menginstall aplikasi apapun dan mengelola Server Virtual Anda apapun yang Anda inginkan.",
-    },
-    {
-      image: "/images/landing/Upgrade.png",
-      name: "Upgrade Kapan Saja",
-      description:
-        "VPS Linux adalah solusi tepat untuk membantu Anda. Ganti dengan VPS Linux SSD untuk performa lebih tinggi kapan saja.",
-    },
-  ];
 
-  const renderedSections = sections.map((section, index) => (
-    <div
-      key={index}
-      className={`p-4 flex flex-col justify-center mb-4 ${
-        index !== sections.length - 1 ? "sm:mb-0" : ""
-      }`}
-    >
-      <div className="flex items-center mb-2">
-        <img
-          src={section.image}
-          alt={`Gambar ${index + 1}`}
-          className="w-20 h-auto mb-2"
-        />
-      </div>
-      <h1 className="text-black text-md lg:text-lg font-bold">
-        {section.name}
-      </h1>
-      <p className="text-black text-md lg:text-lg mt-2 text-justify">
-        {section.description}
-      </p>
-    </div>
-  ));
+  const renderedSections = <Feature FeatureData={Features} />;
 
   return (
     <>
@@ -642,7 +586,7 @@ function page() {
         </div>
       </div>
 
-      <RekanKami />
+      <RekanKami RekanKamiData={Partnership} />
 
       <div className="grid sm:grid-cols-2 gap-0 px-8 items-center mt-28 xl:mt-36">
         <div className="lg:pl-12 xl:pl-28 2xl:pl-40 flex flex-col justify-start ml-20">

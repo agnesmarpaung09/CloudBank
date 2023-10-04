@@ -39,14 +39,6 @@ const PackageCard = ({ title, price, features, iconColor, buttonBg }: any) => {
           {price}/<span className="text-sm text-gray-600">bulan</span>
         </h1>
 
-        <h2 className="block text-gray-500 text-sm mt-2 mr-14">
-          <span className="text-xs" style={{ verticalAlign: "0.5em" }}>
-            Rp.
-          </span>
-
-          <span className="text-xs text-gray-500">bulan</span>
-        </h2>
-
         <div className="text-left mt-6">
           {features.map((feature, index) => (
             <p
@@ -94,11 +86,16 @@ const PackageCard = ({ title, price, features, iconColor, buttonBg }: any) => {
   );
 };
 
+export const getStaticProps = async () => {
+  return {
+    props: { ColocationsData: Package },
+  };
+};
+
 interface Colocations {
   title: any;
   price: any;
   iconColor: any;
-  discountedPrice: any;
   borderColor: any;
   features: any;
 }
@@ -126,8 +123,8 @@ const Colocations: React.FC<ColocationsProps> = ({ ColocationsData }) => {
 
   return (
     <div className="mx-auto max-w-4xl grid md:grid-cols-3 gap-12 -mt-72 text-justify text-xs justify-center">
-      {ColocationsData.map((pkg) => (
-        <PackageCard key={pkg.packageTitle} {...pkg} />
+      {Package.map((pkg) => (
+        <PackageCard key={pkg.title} {...pkg} />
       ))}
     </div>
   );

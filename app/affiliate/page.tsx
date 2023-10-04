@@ -1,26 +1,8 @@
 import React from "react";
+import { Affiliates } from "../datas/affiliate.json";
+import Affiliate from "../affiliate";
 
 const affiliate = () => {
-  const Keuntungan = [
-    {
-      image: "/KomisiMenarik.svg",
-      name: "Komisi Menarik",
-      description:
-        "anda berpeluang mendapatkan komisi hingga 75% dari nilai transaksi pelanggan cloudbank",
-    },
-    {
-      image: "/DiskonTambahan.svg",
-      name: "Diskon Tambahan",
-      description:
-        "calon pelanggan mendapatkan ekstra diskon hingga 15% untuk setiap pembelian produk & layanan cloudbank menggunakan kode afiliasi anda",
-    },
-    {
-      image: "/PencairanCepat.svg",
-      name: "Pencairan Cepat & Mudah",
-      description:
-        "anda dapat melakukan pencairan komisi hanya dengan dua pelanggan aktif, 30 hari setelah transaksi pertama.",
-    },
-  ];
   return (
     <>
       <div
@@ -157,33 +139,8 @@ const affiliate = () => {
           </h2>
         </div>
 
-        <div className="relative">
-          <div className="flex flex-col lg:flex-row justify-center items-center pt-24 md:pt-32">
-            {Keuntungan.map((row, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 px-4 pb-10 transform transition-transform hover:scale-105 relative"
-              >
-                <div className="bg-white rounded-2xl shadow-2xl p-6 w-72 relative">
-                  <div className="">
-                    <img
-                      src={row.image}
-                      alt={`images ${index + 1}`}
-                      className=""
-                    />
-                  </div>
-                  <h2 className="font-semibold text-xl text-[#343A3E] pt-3">
-                    {row.name}
-                  </h2>
-                  <p className="capitalize text-[#606060] text-sm">
-                    {row.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* <div className="relative">
+        <Affiliate AffiliateData={Affiliates} />
+        {/* <div className="relative">
             <img
               src="/images/produk_domain/Group 291.png"
               alt="png Group 291"
@@ -203,7 +160,6 @@ const affiliate = () => {
               </div>
             </div>
           </div> */}
-        </div>
       </div>
     </>
   );

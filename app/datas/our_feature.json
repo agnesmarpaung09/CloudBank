@@ -1,0 +1,34 @@
+{
+  "Features": [
+    {
+      "image": "/images/landing/Outline.png",
+      "name": "Penyimpanan 100% SSD Super Cepat",
+      "description": "SSD memiliki waktu akses yang lebih rendah, waktu tunggu (latency) yang rendah dan IOPS hingga 100x lebih tinggi dari pada HDD. Server VPS kami menggunakan 100% SSD kelas enterprise (bukan SSD caching)."
+    },
+    {
+      "image": "/images/landing/Group.png",
+      "name": "Setup Dalam 1 Menit",
+      "description": "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik."
+    },
+    {
+      "image": "/images/landing/Group-1.png",
+      "name": "Processor Performa Tinggi",
+      "description": "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik."
+    },
+    {
+      "image": "/images/landing/Group-2.png",
+      "name": "Sumber Daya Terjamin",
+      "description": "Yakinlah bahwa Anda mendapatkan sumber daya memory, disk space, dan sumber daya pemrosesan saat dibutuhkan. Tidak akan ada penurunan kinerja yang diakibatkan oleh pengguna hosting lain."
+    },
+    {
+      "image": "/images/landing/Group-3.png",
+      "name": "Absolute Control",
+      "description": "Anda memiliki kontrol untuk menginstall aplikasi apapun dan mengelola Server Virtual Anda apapun yang Anda inginkan."
+    },
+    {
+      "image": "/images/landing/Upgrade.png",
+      "name": "Upgrade Kapan Saja",
+      "description": "VPS Linux adalah solusi tepat untuk membantu Anda. Ganti dengan VPS Linux SSD untuk performa lebih tinggi kapan saja."
+    }
+  ]
+}

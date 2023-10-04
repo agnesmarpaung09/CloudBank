@@ -1,0 +1,19 @@
+{
+  "Affiliates": [
+    {
+      "image": "/KomisiMenarik.svg",
+      "name": "Komisi Menarik",
+      "description": "anda berpeluang mendapatkan komisi hingga 75% dari nilai transaksi pelanggan cloudbank"
+    },
+    {
+      "image": "/DiskonTambahan.svg",
+      "name": "Diskon Tambahan",
+      "description": "calon pelanggan mendapatkan ekstra diskon hingga 15% untuk setiap pembelian produk & layanan cloudbank menggunakan kode afiliasi anda"
+    },
+    {
+      "image": "/PencairanCepat.svg",
+      "name": "Pencairan Cepat & Mudah",
+      "description": "anda dapat melakukan pencairan komisi hanya dengan dua pelanggan aktif, 30 hari setelah transaksi pertama."
+    }
+  ]
+}

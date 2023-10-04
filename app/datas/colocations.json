@@ -4,7 +4,6 @@
       "title": 1,
       "price": "679.500",
       "iconColor": "orange-500",
-
       "borderColor": "orange-500",
       "features": [
         "Power 200 Watts",
@@ -19,7 +18,6 @@
       "title": 2,
       "price": "1.025.100",
       "iconColor": "blue-500",
-
       "borderColor": "blue-500",
       "features": [
         "Power 400 Watts",
@@ -34,7 +32,6 @@
       "title": 3,
       "price": "1.370.700",
       "iconColor": "green-500",
-
       "borderColor": "green-500",
       "features": [
         "Power 400 Watts",

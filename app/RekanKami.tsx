@@ -2,29 +2,23 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
+import { Partnership } from "./datas/partner_data.json";
 
-const RekanKami = () => {
-  const dataRekan = [
-    {
-      image: "/images/landing/rekankami.png",
-    },
-    {
-      image: "/images/landing/rekankami.png",
-    },
-    {
-      image: "/images/landing/rekankami.png",
-    },
-    {
-      image: "/images/landing/rekankami.png",
-    },
-    {
-      image: "/images/landing/rekankami.png",
-    },
-    {
-      image: "/images/landing/rekankami.png",
-    },
-  ];
+export const getStaticProps = async () => {
+  return {
+    props: { RekanKamiData: Partnership },
+  };
+};
 
+interface RekanKami {
+  image: string;
+}
+
+interface RekanKamiProps {
+  RekanKamiData: RekanKami[];
+}
+
+const RekanKami: React.FC<RekanKamiProps> = ({ RekanKamiData }) => {
   const sliderSettings = {
     className: "center",
     centerMode: false,
@@ -62,7 +56,7 @@ const RekanKami = () => {
       </h2>
       <div className="grid grid-cols-1 items-center mt-20">
         <Slider {...sliderSettings}>
-          {dataRekan.map((row, index) => (
+          {RekanKamiData.map((row, index) => (
             <div key={index} className="flex items-center mb-32 justify-center">
               <div className="bg-center  xl:w-auto xl:h-60 sm:w-64 sm:h-44 md:w-80 md:h-56 lg:w-96 lg:h-64 xl:mr-8 2xl:mr-12 items-center">
                 <Image

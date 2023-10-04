@@ -1,10 +1,10 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/solid";
 import Image from "next/image";
-import colocations from "../colocations";
+import Colocations from "../colocations";
 import { Package } from "../datas/colocations.json";
 
-const Colocations = () => {
+const Colocation = () => {
   return (
     <div className="bg-white">
       <div className="bg-blue-900 h-[200px]">
@@ -116,10 +116,11 @@ const Colocations = () => {
             className="w-[1920px] h-[200px] top-[1316px] bg-gray-200 mt-52"
           />
           {/* <div className="mx-auto max-w-4xl grid md:grid-cols-3 gap-12 -mt-72 text-justify text-xs justify-center">
-            {packages.map((pkg) => (
+            {Package.map((pkg) => (
               <PackageCard key={pkg.title} {...pkg} />
             ))}
           </div> */}
+          <Colocations ColocationsData={Package} />
         </div>
         <div className="relative z-10 ">
           <img
@@ -134,4 +135,4 @@ const Colocations = () => {
     </div>
   );
 };
-export default Colocations;
+export default Colocation;

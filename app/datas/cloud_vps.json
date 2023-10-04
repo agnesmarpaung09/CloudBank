@@ -1,0 +1,192 @@
+{
+  "CloudVPSDatas": [
+    {
+      "PilihRencanaAnda": "24 X 7 Supports",
+      "cloudVPS1": "Yes",
+      "cloudVPS2": "Yes",
+      "cloudVPS3": "Yes",
+      "cloudVPS4": "Yes",
+      "cloudVPS5": "Yes",
+      "cloudVPS6": "Yes",
+      "cloudVPS7": "Yes"
+    },
+    {
+      "PilihRencanaAnda": "Backup Retention",
+      "cloudVPS1": "14 Days",
+      "cloudVPS2": "14 Days",
+      "cloudVPS3": "14 Days",
+      "cloudVPS4": "14 Days",
+      "cloudVPS5": "14 Days",
+      "cloudVPS6": "14 Days",
+      "cloudVPS7": "14 Days"
+    },
+    {
+      "PilihRencanaAnda": "SSD Disk Space",
+      "cloudVPS1": "20 GB",
+      "cloudVPS2": "40 GB",
+      "cloudVPS3": "125 GB",
+      "cloudVPS4": "100 GB",
+      "cloudVPS5": "120 GB",
+      "cloudVPS6": "200 GB",
+      "cloudVPS7": "240 GB"
+    },
+    {
+      "PilihRencanaAnda": "IP Public",
+      "cloudVPS1": "1",
+      "cloudVPS2": "1",
+      "cloudVPS3": "1",
+      "cloudVPS4": "1",
+      "cloudVPS5": "1",
+      "cloudVPS6": "1",
+      "cloudVPS7": "1"
+    },
+    {
+      "PilihRencanaAnda": "Memory",
+      "cloudVPS1": "1 GB",
+      "cloudVPS2": "2 GB",
+      "cloudVPS3": "6 GB",
+      "cloudVPS4": "8 GB",
+      "cloudVPS5": "12 GB",
+      "cloudVPS6": "16 GB",
+      "cloudVPS7": "24 GB"
+    },
+    {
+      "PilihRencanaAnda": "Setup Fee",
+      "cloudVPS1": "Free",
+      "cloudVPS2": "Free",
+      "cloudVPS3": "Free",
+      "cloudVPS4": "Free",
+      "cloudVPS5": "Free",
+      "cloudVPS6": "Free",
+      "cloudVPS7": "Free"
+    },
+    {
+      "PilihRencanaAnda": "Storage",
+      "cloudVPS1": "SSD NVMe",
+      "cloudVPS2": "SSD NVMe",
+      "cloudVPS3": "SSD NVMe",
+      "cloudVPS4": "SSD NVMe",
+      "cloudVPS5": "SSD NVMe",
+      "cloudVPS6": "SSD NVMe",
+      "cloudVPS7": "SSD NVMe"
+    },
+    {
+      "PilihRencanaAnda": "Virtualization",
+      "cloudVPS1": "Open Stack + KVM",
+      "cloudVPS2": "Open Stack + KVM",
+      "cloudVPS3": "Open Stack + KVM",
+      "cloudVPS4": "Open Stack + KVM",
+      "cloudVPS5": "Open Stack + KVM",
+      "cloudVPS6": "Open Stack + KVM",
+      "cloudVPS7": "Open Stack + KVM"
+    },
+    {
+      "PilihRencanaAnda": "Access Privilege",
+      "cloudVPS1": "Root",
+      "cloudVPS2": "Root",
+      "cloudVPS3": "Root",
+      "cloudVPS4": "Root",
+      "cloudVPS5": "Root",
+      "cloudVPS6": "Root",
+      "cloudVPS7": "Root"
+    },
+    {
+      "PilihRencanaAnda": "Bandwith",
+      "cloudVPS1": "100 Mbps",
+      "cloudVPS2": "100 Mbps",
+      "cloudVPS3": "100 Mbps",
+      "cloudVPS4": "100 Mbps",
+      "cloudVPS5": "100 Mbps",
+      "cloudVPS6": "100 Mbps",
+      "cloudVPS7": "100 Mbps"
+    },
+    {
+      "PilihRencanaAnda": "High Availabilty",
+      "cloudVPS1": "Yes",
+      "cloudVPS2": "Yes",
+      "cloudVPS3": "Yes",
+      "cloudVPS4": "Yes",
+      "cloudVPS5": "Yes",
+      "cloudVPS6": "Yes",
+      "cloudVPS7": "Yes"
+    },
+    {
+      "PilihRencanaAnda": "Management Support",
+      "cloudVPS1": "Included",
+      "cloudVPS2": "Included",
+      "cloudVPS3": "Included",
+      "cloudVPS4": "Included",
+      "cloudVPS5": "Included",
+      "cloudVPS6": "Included",
+      "cloudVPS7": "Included"
+    },
+    {
+      "PilihRencanaAnda": "Processor",
+      "cloudVPS1": "Intel Xeon R",
+      "cloudVPS2": "Intel Xeon R",
+      "cloudVPS3": "Intel Xeon R",
+      "cloudVPS4": "Intel Xeon R",
+      "cloudVPS5": "Intel Xeon R",
+      "cloudVPS6": "Intel Xeon R",
+      "cloudVPS7": "Intel Xeon R"
+    },
+    {
+      "PilihRencanaAnda": "SSL Certificate",
+      "cloudVPS1": "Included",
+      "cloudVPS2": "Included",
+      "cloudVPS3": "Included",
+      "cloudVPS4": "Included",
+      "cloudVPS5": "Included",
+      "cloudVPS6": "Included",
+      "cloudVPS7": "Included"
+    },
+    {
+      "PilihRencanaAnda": "VCPU",
+      "cloudVPS1": "2 Cores",
+      "cloudVPS2": "3 Cores",
+      "cloudVPS3": "4 Cores",
+      "cloudVPS4": "10 Cores",
+      "cloudVPS5": "16 Cores",
+      "cloudVPS6": "18 Cores",
+      "cloudVPS7": "24 Cores"
+    }
+  ],
+  "CloudVPSPackage": [
+    {
+      "name": "Cloud VPS1",
+      "price": "89rb",
+      "description": "Paket Cloud VPS1"
+    },
+    {
+      "name": "Cloud VPS2",
+      "price": "209rb",
+      "description": "Paket Cloud VPS2",
+      "buttonBg": "bg-blue-500"
+    },
+    {
+      "name": "Cloud VPS3",
+      "price": "629rb",
+      "description": "Paket Cloud VPS3"
+    },
+    {
+      "name": "Cloud VPS4",
+      "price": "809rb",
+      "description": "Paket Cloud VPS4"
+    },
+    {
+      "name": "Cloud VPS5",
+      "price": "1.499Jt",
+      "description": "Paket Cloud VPS5"
+    },
+    {
+      "name": "Cloud VPS6",
+      "price": "2.059Jt",
+      "description": "Paket Cloud VPS6"
+    },
+    {
+      "name": "Cloud VPS7",
+      "price": "2.889Jt",
+      "description": "Paket Cloud VPS7"
+    }
+  ]
+}
