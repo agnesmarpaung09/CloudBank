@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
 import Image from "next/image";
 import { Package } from "./datas/colocations.json";
 import { CheckIcon } from "@heroicons/react/solid";
@@ -105,21 +104,6 @@ interface ColocationsProps {
 }
 
 const Colocations: React.FC<ColocationsProps> = ({ ColocationsData }) => {
-  const sliderSettings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    slidesToShow: 2,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 639,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <div className="mx-auto max-w-4xl grid md:grid-cols-3 gap-12 -mt-72 text-justify text-xs justify-center">

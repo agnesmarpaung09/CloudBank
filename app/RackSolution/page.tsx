@@ -34,14 +34,14 @@ const RankSolution = () => {
       </div>
 
       <section className="py-20 bg-white rounded-lg p-8 text-center">
-        {/* <div className="flex justify-center items-center pt-6 mb-10 mt-14"> */}
+  
         <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
           SERVIS KAMI
         </h1>
         <h2 className="capitalize text-xl md:text-3xl font-semibold mb-8 text-[#343A3E] z-10">
           Servis Kami
         </h2>
-        {/* </div> */}
+  
 
         <div className="mx-auto max-w-4xl grid md:grid-cols-1 lg:grid-cols-3 gap-16 mt-12 text-justify text-sm justify-center">
           <div className="bg-white shadow-lg p-4 rounded-lg relative">

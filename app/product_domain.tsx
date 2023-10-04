@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
-import Image from 'next/image';
 import { ProductDomains } from "./datas/productdomain.json";
 
 export const getStaticProps = async () => {
@@ -24,21 +22,7 @@ interface ProductDomainProps {
 
 
 const ProductDomain: React.FC<ProductDomainProps> = ({ ProductDomainData }) => {
-    const sliderSettings = {
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        slidesToShow: 2,
-        speed: 500,
-        responsive: [
-            {
-                breakpoint: 639,
-                settings: {
-                    slidesToShow: 1,
-                },
-            },
-        ],
-    };
+
 
     return (
         <div className='mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 text-center justify-center mt-8 md:mt-16'>

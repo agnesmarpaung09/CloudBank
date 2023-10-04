@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
-import Image from "next/image";
 import { Features } from "./datas/our_feature.json";
 
 export const getStaticProps = async () => {
@@ -21,21 +19,7 @@ interface FeatureProps {
 }
 
 const Feature: React.FC<FeatureProps> = ({ FeatureData }) => {
-  const sliderSettings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    slidesToShow: 2,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 639,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+
 
   return FeatureData.map((section, index) => (
     <div

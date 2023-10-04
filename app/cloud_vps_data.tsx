@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
-import Image from "next/image";
 import { CloudVPSPackage, CloudVPSDatas } from "./datas/cloud_vps.json";
 
 export const getStaticProps = async () => {
@@ -29,21 +27,7 @@ interface VPSDatasProps {
 }
 
 const VPSDatas: React.FC<VPSDatasProps> = ({ VPSDatas }) => {
-  const sliderSettings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    slidesToShow: 2,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 639,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+
 
   return (
     <tbody>

@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
-import Image from "next/image";
 import { Affiliates } from "./datas/affiliate.json";
 
 export const getStaticProps = async () => {
@@ -21,21 +19,6 @@ interface AffiliateProps {
 }
 
 const Affiliate: React.FC<AffiliateProps> = ({ AffiliateData }) => {
-  const sliderSettings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    slidesToShow: 2,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 639,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <div className="relative">
