@@ -1,0 +1,49 @@
+{
+  "Package": [
+    {
+      "title": 1,
+      "price": "679.500",
+      "iconColor": "orange-500",
+
+      "borderColor": "orange-500",
+      "features": [
+        "Power 200 Watts",
+        "Allocation 1 IP (/32)",
+        "Bandwidth 100 Mbps Local",
+        "Bandwidth 100 Mbps Intl",
+        "Power Outlet Single PSU",
+        "Setup Fee IDR 500,000"
+      ]
+    },
+    {
+      "title": 2,
+      "price": "1.025.100",
+      "iconColor": "blue-500",
+
+      "borderColor": "blue-500",
+      "features": [
+        "Power 400 Watts",
+        "Allocation 1 IP (/32)",
+        "Bandwidth 100 Mbps Local",
+        "Bandwidth 100 Mbps Intl",
+        "Power Outlet Single PSU",
+        "Setup Fee IDR 500,000"
+      ]
+    },
+    {
+      "title": 3,
+      "price": "1.370.700",
+      "iconColor": "green-500",
+
+      "borderColor": "green-500",
+      "features": [
+        "Power 400 Watts",
+        "Allocation 1 IP (/32)",
+        "Bandwidth 100 Mbps Local",
+        "Bandwidth 100 Mbps Intl",
+        "Power Outlet Single PSU",
+        "Setup Fee IDR 500,000"
+      ]
+    }
+  ]
+}

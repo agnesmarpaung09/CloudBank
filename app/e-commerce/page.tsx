@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import Testimonial from "../testimonial";
+import { Testimonials } from "../datas/testimonial.json";
 
 
 
@@ -105,7 +106,7 @@ const Ecommerce = () => {
           </div> 
         </div>
       </div>  
-      <Testimonial />
+      <Testimonial TestimonialData={Testimonials} />
     </div>
   );
 };  

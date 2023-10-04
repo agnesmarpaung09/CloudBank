@@ -1,4 +1,6 @@
 import React from 'react';
+import { ProductDomains } from "../datas/productdomain.json";
+import ProductDomain from "../product_domain";
 
 const produk_domain = () => {
   const kotakData = [
@@ -101,6 +103,23 @@ const produk_domain = () => {
             </div>
 
 
+        <div className='mt-6 md:mt-10 flex flex-col md:flex-row justify-center items-center'>
+          <input
+            type='text'
+            placeholder='Cari Nama Domain...'
+            className='border p-2 rounded-l-lg focus:outline-none w-full md:w-[70%] xl:w-[60%] 2xl:w-[50%] mb-2 md:mb-0 md:mr-2'
+          />
+          <button className='flex items-center bg-orange-500 text-white p-2 rounded-r-lg hover:bg-orange-600 focus:outline-none w-full md:w-auto'>
+            <img
+              src='/images/produk_domain/SEARCH.svg'
+              alt='Search Icon'
+              className='h-4 w-4 mx-2'
+            />
+            <span className=''>Cari domain</span>
+          </button>
+        </div>
+
+        <ProductDomain ProductDomainData={ProductDomains} />
 
         <div className='flex flex-col md:flex-row items-center justify-center mt-8 md:mt-12'>
           <div className='relative h-96 w-72 md:w-96 mx-auto md:mx-12'>

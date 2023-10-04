@@ -1,0 +1,54 @@
+{
+  "ProductCloudHostings": [
+    {
+      "rencana_anda": "Storage",
+      "cloud_lite": "1 GB",
+      "cloud_soho": "3 GB",
+      "cloud_startup": "5 GB",
+      "cloud_Sme": "10 GB",
+      "cloud_pro": "20 GB",
+      "cloud_premium": "40 GB",
+      "cloud_enterprise": "60 GB"
+    },
+    {
+      "rencana_anda": "Database",
+      "cloud_lite": "Unlimited",                                                                                         
+      "cloud_soho": "Unlimited",
+      "cloud_startup": "Unlimited",
+      "cloud_Sme": "Unlimited",
+      "cloud_pro": "Unlimited",
+      "cloud_premium": "Unlimited",
+      "cloud_enterprise": "Unlimited"
+    },
+    {
+      "rencana_anda": "SSL",
+      "cloud_lite": "Free",
+      "cloud_soho": "Free",
+      "cloud_startup": "Free",
+      "cloud_Sme": "Free",
+      "cloud_pro": "Free",
+      "cloud_premium": "Free",
+      "cloud_enterprise": "Free"
+    },
+    {
+      "rencana_anda": "Backup",
+      "cloud_lite": "14 Days",
+      "cloud_soho": "14 Days",
+      "cloud_startup": "14 Days",
+      "cloud_Sme": "14 Days",
+      "cloud_pro": "14 Days",
+      "cloud_premium": "14 Days",
+      "cloud_enterprise": "14 Days"
+    },
+    {
+      "rencana_anda": "Domain",
+      "cloud_lite": 1,
+      "cloud_soho": 4,
+      "cloud_startup": 6,
+      "cloud_Sme": 10,
+      "cloud_pro": 10,
+      "cloud_premium": 10,
+      "cloud_enterprise": "Unlimited"
+    }
+  ]
+}

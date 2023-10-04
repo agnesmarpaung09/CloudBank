@@ -1,123 +1,9 @@
 import React from "react";
+import { dataCloudHosting, dataCloudVPS } from "../datas/reseller.json";
+import CloudVPS from "../reseller_page_vps";
+import CloudHosting from "../reseller_page_hosting";
 
 const reseller = () => {
-  const dataCloudHosting = [
-    {
-      namaPaket: "Cloud Lite",
-      HargaNormalBulan: "Rp.18.000",
-      basic: "Rp.16.200",
-      intermidiate: "Rp.15.300",
-      pro: "Rp.14.400",
-    },
-    {
-      namaPaket: "Cloud Soho",
-      HargaNormalBulan: "Rp.36.000",
-      basic: "Rp.32.400",
-      intermidiate: "Rp.30.600",
-      pro: "Rp.28.800",
-    },
-    {
-      namaPaket: "Cloud Start Up",
-      HargaNormalBulan: "Rp.81.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud SME",
-      HargaNormalBulan: "Rp.126.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud Pro",
-      HargaNormalBulan: "Rp.225.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud Premium",
-      HargaNormalBulan: "Rp.540.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud Enterprise",
-      HargaNormalBulan: "Rp.1.080.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-  ];
-
-  const dataCloudVPS = [
-    {
-      namaPaket: "Cloud VPS1",
-      HargaNormalBulan: "Rp.89.000",
-      basic: "Rp.243.000",
-      intermidiate: "Rp.229.500",
-      pro: "Rp.216.000",
-    },
-    {
-      namaPaket: "Cloud VPS2",
-      HargaNormalBulan: "Rp.209.000",
-      basic: "Rp.486.000",
-      intermidiate: "Rp.459.000",
-      pro: "Rp.432.000",
-    },
-    {
-      namaPaket: "Cloud VPS3",
-      HargaNormalBulan: "Rp.629.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud VPS4",
-      HargaNormalBulan: "Rp.809.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud VPS5",
-      HargaNormalBulan: "Rp.1.499.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud VPS6",
-      HargaNormalBulan: "Rp.2.059.000",
-      basic: "4.158.000",
-      intermidiate: "Rp.3.927.000",
-      pro: "Rp.3.696.000",
-    },
-    {
-      namaPaket: "Cloud Storage PMI",
-      HargaNormalBulan: "Rp.28.175.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud Univ",
-      HargaNormalBulan: "Rp.300.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-    {
-      namaPaket: "Cloud VPS7",
-      HargaNormalBulan: "Rp.2.889.000",
-      basic: "TBA",
-      intermidiate: "TBA",
-      pro: "TBA",
-    },
-  ];
 
   return (
     <>
@@ -214,10 +100,10 @@ const reseller = () => {
       <div className="bg-[#F9FAFE]">
         <img src="/bgResseller1.svg" alt="" className=" w-12 xl:w-[70px]" />
         <div className="flex justify-center items-center xl:pt-6 ">
-          <h1 className="text-center text-2xl md:text-4xl xl:text-5xl  font-bold absolute z-10 bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent ">
+          <h1 className="text-center text-2xl md:text-4xl xl:text-5xl  font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent ">
             KENAPA HARUS BERGABUNG DENGAN
           </h1>
-          <h2 className="capitalize text-xl md:text-3xl font-semibold pt-6 md:pt-16 px-6  text-center text-[#343A3E] absolute z-10">
+          <h2 className="capitalize text-xl md:text-3xl font-semibold pt-6 md:pt-16 px-6  text-center text-[#343A3E] absolute">
             kenapa harus bergabung dengan cloudbank reseller?
           </h2>
         </div>
@@ -280,8 +166,10 @@ const reseller = () => {
             </div>
           </div>
         </div>
+        <CloudVPS CloudVPS={dataCloudVPS} />
+        <CloudHosting CloudHosting={dataCloudHosting} />
 
-        <div className="flex justify-center mt-12 px-6 sm:px-12">
+        {/* <div className="flex justify-center mt-12 px-6 sm:px-12">
           <div className="w-full max-w-[1060px] overflow-x-auto ">
             <div className="md:flex flex-col">
               <h2 className="text-2xl font-semibold mb-4">Cloud Vps</h2>
@@ -394,7 +282,7 @@ const reseller = () => {
               </table>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="relative">
           <img
             src="/images/produk_domain/Group 291.png"

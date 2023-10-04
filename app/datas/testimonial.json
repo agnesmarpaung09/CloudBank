@@ -1,0 +1,31 @@
+
+{
+"Testimonials":  
+    [
+        {
+            "image": "/images/testimonial.png",
+            "name": "Siti",
+            "business": "Remilik UMKM",
+            "description": "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke Cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami."
+        },
+        {
+            "image": "/images/testimonial.png",
+            "name": "Martha",
+            "business": "Owner, Resto A",
+            "description": "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke Cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami."
+        },
+        {
+            "image": "/images/testimonial.png",
+            "name": "Nana",
+            "business": "Owner, Resto B",
+            "description": "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke Cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami."
+        },
+        {
+            "image": "/images/testimonial.png",
+            "name": "Nadin",
+            "business": "Owner, Resto C",
+            "description": "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke Cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami."
+        }
+    ]
+}
+

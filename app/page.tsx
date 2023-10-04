@@ -12,6 +12,7 @@ function page() {
     setShowPassword(!showPassword);
   };
 
+  // Beragam Paket Hosting
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const images = [
     {
@@ -29,6 +30,69 @@ function page() {
     setSelectedImage(index);
   };
 
+  // Fitur Kami
+  const sections = [
+    {
+      image: "/images/landing/Outline.png",
+      name: "Penyimpanan 100% SSD Super Cepat",
+      description:
+        "SSD memiliki waktu akses yang lebih rendah, waktu tunggu (latency) yang rendah dan IOPS hingga 100x lebih tinggi dari pada HDD. Server VPS kami menggunakan 100% SSD kelas enterprise (bukan SSD caching).",
+    },
+    {
+      image: "/images/landing/Group.png",
+      name: "Setup Dalam 1 Menit",
+      description:
+        "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik.",
+    },
+    {
+      image: "/images/landing/Group-1.png",
+      name: "Processor Performa Tinggi",
+      description:
+        "Tidak perlu menunggu. Tinggal lakukan pemesanan, bayar, dan sistem kami secara otomatis akan mempersiapkan Server VPS Anda dalam hitungan detik.",
+    },
+    {
+      image: "/images/landing/Group-2.png",
+      name: "Sumber Daya Terjamin",
+      description:
+        "Yakinlah bahwa Anda mendapatkan sumber daya memory, disk space, dan sumber daya pemrosesan saat dibutuhkan. Tidak akan ada penurunan kinerja yang diakibatkan oleh pengguna hosting lain.",
+    },
+    {
+      image: "/images/landing/Group-3.png",
+      name: "Absolute Control",
+      description:
+        "Anda memiliki kontrol untuk menginstall aplikasi apapun dan mengelola Server Virtual Anda apapun yang Anda inginkan.",
+    },
+    {
+      image: "/images/landing/Upgrade.png",
+      name: "Upgrade Kapan Saja",
+      description:
+        "VPS Linux adalah solusi tepat untuk membantu Anda. Ganti dengan VPS Linux SSD untuk performa lebih tinggi kapan saja.",
+    },
+  ];
+
+  const renderedSections = sections.map((section, index) => (
+    <div
+      key={index}
+      className={`p-4 flex flex-col justify-center mb-4 ${
+        index !== sections.length - 1 ? "sm:mb-0" : ""
+      }`}
+    >
+      <div className="flex items-center mb-2">
+        <img
+          src={section.image}
+          alt={`Gambar ${index + 1}`}
+          className="w-20 h-auto mb-2"
+        />
+      </div>
+      <h1 className="text-black text-md lg:text-lg font-bold">
+        {section.name}
+      </h1>
+      <p className="text-black text-md lg:text-lg mt-2 text-justify">
+        {section.description}
+      </p>
+    </div>
+  ));
+
   return (
     <>
       <div className="min-h-screen flex item-center container mx-auto px-5 sm:px-7 pt-4 pb-16 lg:pb-10">
@@ -39,7 +103,6 @@ function page() {
             height: "113%",
           }}
         >
-          {/* Overlay Text */}
           <div
             className="absolute inset-0 flex flex-col justify-center items-center text-center px-6"
             style={{ bottom: "30%" }}
@@ -396,6 +459,19 @@ function page() {
           ))}
         </div>
       </div>
+      <div className="text-center mt-8">
+        <span
+          className="text-blue-500 text-md cursor-pointer"
+          style={{ textDecoration: "underline", fontWeight: "semibold" }}
+        >
+          Lihat Paket Lainnya
+          <img
+            src="/images/landing/panah.svg"
+            alt="Lihat Paket Lainnya"
+            className="inline-block ml-3"
+          />
+        </span>
+      </div>
 
       <div className="flex items-center">
         <img
@@ -412,123 +488,10 @@ function page() {
           Fitur Kami
         </h2>
       </div>
+
       <div className="flex mt-20 justify-center">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ml-4">
-          <div className="p-4 flex flex-col justify-center mr-10">
-            <div className="flex items-center mb-2">
-              <img
-                src="/images/landing/Outline.png"
-                alt="Image 1"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold">
-              Penyimpanan 100% SSD <br />
-              Super Cepat <br />
-            </h1>
-            <p className="text-black text-md lg:text-lg mt-2">
-              SSD Memiliki Waktu Akses Yang Lebih Rendah, <br />
-              Waktu Tunggu (Latency) Yang Rendah Dan <br />
-              IOPS Hingga 100x Lebih Tinggi Dari Pada HDD.
-              <br />
-              Server VPS Kami Menggunakan 100% SSD <br />
-              Kelas Enterprise (Bukan SSD Caching).
-              <br />
-            </p>
-          </div>
-          <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
-            <div className="flex items-center mb-2 mt-0">
-              <img
-                src="/images/landing/Group.png"
-                alt="Image 2"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold ">
-              Setup Dalam 1 Menit
-            </h1>
-            <p className="text-black text-md lg:text-lg mt-2">
-              Tak Perlu Menunggu. Tinggal Lakukan <br />
-              Pemesanan, Bayar Dan Sistem Kami Secara <br />
-              Otomatis Akan Mempersiapkan Server VPS <br />
-              Anda Dalam Hitungan Detik. <br />
-            </p>
-          </div>
-          <div className="p-4 flex flex-col justify-center mb-4 sm:mb-0">
-            <div className="flex items-center mb-2 mt-0">
-              <img
-                src="/images/landing/Group-1.png"
-                alt="Image 3"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold">
-              Processor Performa Tinggi
-            </h1>
-            <p className="text-black text-md lg:text-lg">
-              Tak Perlu Menunggu. Tinggal Lakukan <br />
-              Pemesanan, Bayar Dan Sistem Kami Secara <br />
-              Otomatis Akan Mempersiapkan Server VPS <br />
-              Anda Dalam Hitungan Detik. <br />
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="flex mt-20 justify-center">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ml-4">
-          <div className="p-4 flex flex-col justify-center mr-10">
-            <div className="flex items-center mb-2">
-              <img
-                src="/images/landing/Group-2.png"
-                alt="Image 4"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold">
-              Sumber Daya Terjamin
-            </h1>
-            <p className="text-black text-md lg:text-lg  text-justify mx-auto mt-4">
-              Yakinlah Bahwa Anda Mendapatkan Sumber <br />
-              Data Memory, Disk Space Dan Sumber Daya <br />
-              Pemrosesan Saat Dibutuhkan. Tidak Akan Ada <br />
-              Penurunan Kinerja Yang Diakibatkan Oleh <br />
-              Pengguna Hosting Lain. <br />
-            </p>
-          </div>
-          <div className="p-4 flex flex-col justify-between">
-            <div className="flex items-center mb-2 mt-0">
-              <img
-                src="/images/landing/Group-3.png"
-                alt="Image 5"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold ">
-              Absolute Control
-            </h1>
-            <p className="text-black text-md lg:text-lg mt-4">
-              Anda Memiliki Kontrol Untuk Menginstall <br />
-              Aplikasi Apapun Dan Mengelola Server Virtual <br />
-              Anda Apapun Yang Anda Inginkan. <br />
-            </p>
-          </div>
-          <div className="p-4 flex flex-col justify-between">
-            <div className="flex items-center mb-2 mt-0">
-              <img
-                src="/images/landing/Upgrade.png"
-                alt="Image 6"
-                className="w-20 h-auto mb-2"
-              />
-            </div>
-            <h1 className="text-black text-md lg:text-lg font-bold">
-              Upgrade Kapan Saja
-            </h1>
-            <p className="text-black text-md lg:text-lg">
-              VPS Linus Adalah Solusi Tepat Untuk <br />
-              Membantu Anda. Ganti Dengan VPS Linux SSD <br />
-              Untuk Performa Lebih Tinggi Kapan Saja. <br />
-            </p>
-          </div>
+          {renderedSections}
         </div>
       </div>
       <div className="flex justify-end items-center">

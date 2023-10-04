@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import Testimonial from "../testimonial";
+import { Testimonials } from "../datas/testimonial.json";
 
 
 const UMKM = () => {
@@ -105,7 +106,7 @@ const UMKM = () => {
           </div> 
         </div>
       </div>  
-      <Testimonial />
+      <Testimonial TestimonialData={Testimonials} />
     </div>
   );
 };  

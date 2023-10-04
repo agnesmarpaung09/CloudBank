@@ -1,0 +1,119 @@
+{
+    "dataCloudHosting": [
+        {
+            "namaPaket": "Cloud Lite",
+            "HargaNormalBulan": "Rp.18.000",
+            "basic": "Rp.16.200",
+            "intermidiate": "Rp.15.300",
+            "pro": "Rp.14.400"
+        },
+        {
+            "namaPaket": "Cloud Soho",
+            "HargaNormalBulan": "Rp.36.000",
+            "basic": "Rp.32.400",
+            "intermidiate": "Rp.30.600",
+            "pro": "Rp.28.800"
+        },
+        {
+            "namaPaket": "Cloud Start Up",
+            "HargaNormalBulan": "Rp.81.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud SME",
+            "HargaNormalBulan": "Rp.126.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud Pro",
+            "HargaNormalBulan": "Rp.225.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud Premium",
+            "HargaNormalBulan": "Rp.540.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud Enterprise",
+            "HargaNormalBulan": "Rp.1.080.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        }
+    ],
+    
+    "dataCloudVPS": [
+        {
+            "namaPaket": "Cloud VPS1",
+            "HargaNormalBulan": "Rp.89.000",
+            "basic": "Rp.243.000",
+            "intermidiate": "Rp.229.500",
+            "pro": "Rp.216.000"
+        },
+        {
+            "namaPaket": "Cloud VPS2",
+            "HargaNormalBulan": "Rp.209.000",
+            "basic": "Rp.486.000",
+            "intermidiate": "Rp.459.000",
+            "pro": "Rp.432.000"
+        },
+        {
+            "namaPaket": "Cloud VPS3",
+            "HargaNormalBulan": "Rp.629.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud VPS4",
+            "HargaNormalBulan": "Rp.809.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud VPS5",
+            "HargaNormalBulan": "Rp.1.499.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud VPS6",
+            "HargaNormalBulan": "Rp.2.059.000",
+            "basic": "4.158.000",
+            "intermidiate": "Rp.3.927.000",
+            "pro": "Rp.3.696.000"
+        },
+        {
+            "namaPaket": "Cloud Storage PMI",
+            "HargaNormalBulan": "Rp.28.175.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud Univ",
+            "HargaNormalBulan": "Rp.300.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        },
+        {
+            "namaPaket": "Cloud VPS7",
+            "HargaNormalBulan": "Rp.2.889.000",
+            "basic": "TBA",
+            "intermidiate": "TBA",
+            "pro": "TBA"
+        }
+    ]
+}
