@@ -10,7 +10,7 @@ const ProdukCloudHosting = () => {
   return (
     <>
       <div className="relative  overflow-auto">
-        <div className=" w-full overflow-auto" >
+        <div className=" w-full overflow-auto">
           <div className="inset-0">
             <img
               src="images/produk_cloudhosting/BG LAYER 1.png"
@@ -19,8 +19,7 @@ const ProdukCloudHosting = () => {
             />
           </div>
 
-
-          <div className="top-0 left-0 flex flex-col justify-center items-center text-white bg-opacity-50 -mt-52 ">
+          <div className="top-0 left-0 flex flex-col justify-center items-center text-white bg-opacity-50 -mt-40 ">
             <h1 className="capitalize text-3xl font-bold ">
               Hosting Batam Cepat dan Terpercaya
             </h1>
@@ -28,11 +27,9 @@ const ProdukCloudHosting = () => {
               Mulailah pengalaman bisnis online anda dengan hosting bersama
               cloudbank dengan layanan terpercaya
             </h3>
-
           </div>
 
           <div className="text-center bg-opacity-10 p-8 md:p-24 font-cabinet-grotesk relative  ">
-
             <div className="flex justify-center items-center h-screen  ">
               <div className="text-center ">
                 <h1 className="text-3xl md:text-4 xl:text-5xl font-bold bg-gradient-to-b from-gray-400 to-white bg-clip-text text-transparent">
@@ -43,8 +40,7 @@ const ProdukCloudHosting = () => {
                 </h2>
 
                 <div className=" flex justify-center mt-4 ">
-                  <div className='w-full md:max-w-5xl overflow-x-auto'>
-
+                  <div className="w-full md:max-w-5xl overflow-x-auto">
                     <table className=" w-full table-auto border md:border-collapse ">
                       <thead>
                         <tr className="text-sm">
@@ -64,7 +60,7 @@ const ProdukCloudHosting = () => {
                             </p>
                             <button
                               onClick={() => {
-                                setOpenModal(true)
+                                setOpenModal(true);
                               }}
                               className="border z-[99] bg-blue-500 border-blue-400 w-24 p-2 text-white px-2 py-1 rounded-lg mt-3"
                             >
@@ -163,12 +159,13 @@ const ProdukCloudHosting = () => {
                           </th>
                         </tr>
                       </thead>
-                      <ProductCloudHosting ProductCloudHostingData={ProductCloudHostings} />
+                      <ProductCloudHosting
+                        ProductCloudHostingData={ProductCloudHostings}
+                      />
                     </table>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -182,11 +179,13 @@ const ProdukCloudHosting = () => {
             <p className="capitalize  text-gray-700 text-lg pt-2 w-[350px]">
               kenapa memilih cloudbank sebagai partner anda?
             </p>
-            <img src="images/produk_cloudhosting/Group 1.png" className="w-96 h-96" alt=" Image" />
+            <img
+              src="images/produk_cloudhosting/Group 1.png"
+              className="w-96 h-96"
+              alt=" Image"
+            />
           </div>
           <div className=" pt-8 flex ">
-
-
             <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-12">
               <div className="bg-white drop-shadow-xl p-4 rounded-lg shadow-md w-64 h-64 hover:bg-gray-50 transition duration-100">
                 <div className=" flex  justify-center">
@@ -201,9 +200,9 @@ const ProdukCloudHosting = () => {
                   Aman dan Terjaga
                 </p>
                 <h3 className="text-gray-500  mr-2 mb-2 text-xs capitalize text-justify">
-                  Kepercayaan anda adalah prioritas kami untuk memastikan keamanan
-                  data, tampilan, informasi maupun responsibilitas agar tetap
-                  terjaga dari malware atau pun hacker.
+                  Kepercayaan anda adalah prioritas kami untuk memastikan
+                  keamanan data, tampilan, informasi maupun responsibilitas agar
+                  tetap terjaga dari malware atau pun hacker.
                 </h3>
               </div>
 
@@ -268,11 +267,7 @@ const ProdukCloudHosting = () => {
             </div>
           </div>
         </div>
-        <Modal
-          open={openModal}
-          setOpen={setOpenModal}
-          key={1}
-        />
+        <Modal open={openModal} setOpen={setOpenModal} key={1} />
       </div>
     </>
   );
