@@ -2,39 +2,27 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from 'next/image';
+import { Testimonials } from "./datas/testimonial.json";
 
-const Testimonial = () => {
-  const dataTestimoni = [
-    {
-      image: "/images/testimonial.png",
-      name: "Siti",
-      busines: "Remilik UMKM",
-      description:
-      "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami.",
-    },
-    {
-      image: "/images/testimonial.png",
-      name: "Martha",
-      busines: "Owner, Resto A",
-      description:
-      "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami.",
-    },
-    {
-      image: "/images/testimonial.png",
-      name: "Nana",
-      busines: "Owner, Resto B",
-      description:
-      "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami.",
-    },
-    {
-      image: "/images/testimonial.png",
-      name: "Nadin",
-      busines: "Owner, Resto C",
-      description:
-      "Tim Cloudbank telah membantu saya untuk transfer domain dan hosting saya ke cloudbank sehingga memudahkan proses implementasi solusi digital pada bisnis kami.",
-    },
-  ];
+export const getStaticProps = async () => {
+  return {
+    props: { TestimonialData: Testimonials },
+  };
+};
 
+interface Testimonial {
+  name: string;
+  business: string;
+  description: string;
+  image: string;
+}
+
+interface TestimonialProps {
+  TestimonialData: Testimonial[];
+}
+
+
+const Testimonial: React.FC<TestimonialProps> = ({ TestimonialData }) => {
   const sliderSettings = {
     className: "center",
     centerMode: true,
@@ -54,7 +42,7 @@ const Testimonial = () => {
   return (
     <div className="items-center mt-36 xl:mt-38 ">
       <Slider {...sliderSettings}>
-        {dataTestimoni.map((row, index) => (
+        {TestimonialData.map((row, index) => (
           <div key={index} className="flex items-center mb-24">
             <div className="xl:flex bg-white rounded-2xl shadow-2xl xl:w-auto xl:h-80 mr-10 sm:mr-8 md:mr-16 lg:mr-28 xl:mr-8 2xl:mr-12 items-center ">
               <div className="xl:w-1/3 h-full bg-cover bg-center rounded-xl">
@@ -71,7 +59,7 @@ const Testimonial = () => {
                   {row.name}
                 </h2>
                 <p className="text-sm sm:text-xs mt-2 ">
-                  {row.busines}
+                  {row.business}
                 </p>
                 <p className="text-md sm:text-sm mt-2 text-justify">
                   {row.description}

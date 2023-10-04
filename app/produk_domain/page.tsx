@@ -1,43 +1,8 @@
 import React from 'react';
+import { ProductDomains } from "../datas/productdomain.json";
+import ProductDomain from "../product_domain";
 
 const produk_domain = () => {
-  const kotakData = [
-    {
-      imageSrc: 'images/kotak.png', // Ganti dengan path gambar yang sesuai
-      title: '.art',
-      buttonText: 'Beli',
-      text: 'Harga Mulai Dari',
-      price: 'Rp.206.000/tahun',
-    },
-    {
-      imageSrc: 'images/kotak.png', // Ganti dengan path gambar yang sesuai
-      title: '.asia',
-      buttonText: 'Beli',
-      text: 'Harga Mulai Dari',
-      price: 'Rp.233.500/tahun',
-    },
-    {
-      imageSrc: 'images/kotak.png', // Ganti dengan path gambar yang sesuai
-      title: '.com',
-      buttonText: 'Beli',
-      text: 'Harga Mulai Dari',
-      price: 'Rp.154.500/tahun',
-    },
-    {
-      imageSrc: 'images/kotak.png', // Ganti dengan path gambar yang sesuai
-      title: '.photo',
-      buttonText: 'Beli',
-      text: 'Harga Mulai Dari',
-      price: 'Rp.360.000/tahun',
-    },
-    {
-      imageSrc: 'images/kotak.png', // Ganti dengan path gambar yang sesuai
-      title: '.photo',
-      buttonText: 'Beli',
-      text: 'Harga Mulai Dari',
-      price: 'Rp.164.500/tahun',
-    },
-  ];
 
   return (
     <div className='relative overflow-hidden'>
@@ -74,31 +39,7 @@ const produk_domain = () => {
           </button>
         </div>
 
-        <div className='mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 text-center justify-center mt-8 md:mt-16'>
-          {kotakData.map((item, index) => (
-            <div key={index} className='h-64 w-64 relative hover:bg-white ml-3'>
-              <div className='relative h-full w-full flex items-center'>
-                <img
-                  src={item.imageSrc}
-                  alt='Kotak'
-                  className='h-full w-full'
-                />
-                <p className='absolute top-2 left-0 w-full text-center text-gray-800 font-bold text-4xl'>
-                  {item.title}
-                </p>
-                <p className='absolute mt-0 left-0 w-full text-center text-gray-400 text-sm'>
-                  {item.text}
-                </p>
-                <p className='absolute mt-24 left-0 w-full text-center text-blue-700 font-bold text-sm'>
-                  {item.price}
-                </p>
-                <button className='absolute bottom-0 mt-4 left-0 w-full bg-orange-500 text-white py-1 px-2 text-center hover:bg-blue-600 focus:outline-none'>
-                  {item.buttonText}
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
+        <ProductDomain ProductDomainData={ProductDomains} />
 
         <div className='flex flex-col md:flex-row items-center justify-center mt-8 md:mt-12'>
           <div className='relative h-96 w-72 md:w-96 mx-auto md:mx-12'>

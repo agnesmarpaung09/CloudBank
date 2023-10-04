@@ -1,0 +1,39 @@
+{
+    "ProductDomains": [
+        {
+          "imageSrc": "images/kotak.png",
+          "title": ".art",
+          "buttonText": "Beli",
+          "text": "Harga Mulai Dari",
+          "price": "Rp.206.000/tahun"
+        },
+        {
+          "imageSrc": "images/kotak.png",
+          "title": ".asia",
+          "buttonText": "Beli",
+          "text": "Harga Mulai Dari",
+          "price": "Rp.233.500/tahun"
+        },
+        {
+          "imageSrc": "images/kotak.png",
+          "title": ".com",
+          "buttonText": "Beli",
+          "text": "Harga Mulai Dari",
+          "price": "Rp.154.500/tahun"
+        },
+        {
+          "imageSrc": "images/kotak.png",
+          "title": ".photo",
+          "buttonText": "Beli",
+          "text": "Harga Mulai Dari",
+          "price": "Rp.360.000/tahun"
+        },
+        {
+          "imageSrc": "images/kotak.png",
+          "title": ".photo",
+          "buttonText": "Beli",
+          "text": "Harga Mulai Dari",
+          "price": "Rp.164.500/tahun"
+        }
+      ]
+  }
