@@ -132,12 +132,13 @@ function page() {
         </p>
       </div>
       <div className="grid justify-center mt-4">
-        <img
-          src="/images/landing/Group11710.png"
-          alt="JasaDomain"
-          className="w-full sm:w-auto md:max-w-md h-auto"
-        />
+      <img
+       src="/images/landing/Group11710.png"
+       alt="JasaDomain"
+       className="w-full md:w-auto sm:w-1/2 h-auto"
+      />
       </div>
+
 
       <div className="flex flex-col items-center mt-28 xl:mt-36 ">
         <h1 className="text-center text-3xl md:text-4xl xl:text-5xl font-bold absolute bg-gradient-to-b from-[#DCDCDC] to-white bg-clip-text text-transparent">
